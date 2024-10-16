@@ -84,6 +84,8 @@ module.exports = {
       'primary-800': '#800B0B',
       'primary-900': '#4C0707',
       'primary-950': '#320404',
+      purp: '#FF66C4',
+      blu: '#5271FF',
     },
     extend: {
       display: ['group-hover'],

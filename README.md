@@ -12,7 +12,7 @@
     <a href="https://github.com/hamzaPixl/54cutz/blob/master/README.md"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://54cutz.be/">View Demo</a>
+    <a href="https://54cutz.com/">View Demo</a>
     ·
     <a href="https://github.com/hamzaPixl/54cutz/issues">Report Bug</a>
     ·
