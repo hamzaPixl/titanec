@@ -21,7 +21,7 @@ export default function SEO() {
   const author = injected.author.url
   const url = injected.manifest.url
 
-  const image = pageInfo?.image || '/banner.png'
+  const image = pageInfo?.image || '/gallery3.png'
   const meta = [{ name: 'keywords', content: injected.keywords.concat(pageInfo?.meta?.keywords) }]
   const title = pageInfo?.meta?.title ? t(pageInfo?.meta?.title) : injected.title
   const description = pageInfo?.meta?.description
