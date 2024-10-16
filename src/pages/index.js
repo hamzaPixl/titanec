@@ -114,7 +114,8 @@ export default function Home() {
               <Image
                 className='h-auto max-w-full rounded-lg'
                 src='/images/gallery1.jpg'
-                alt=''
+                alt='gallery image'
+                loading='lazy'
                 width={300}
                 height={300}
               />
@@ -123,7 +124,8 @@ export default function Home() {
               <Image
                 className='h-auto max-w-full rounded-lg'
                 src='/images/gallery7.jpg'
-                alt=''
+                alt='gallery image'
+                loading='lazy'
                 width={300}
                 height={300}
               />
@@ -132,7 +134,8 @@ export default function Home() {
               <Image
                 className='h-auto max-w-full rounded-lg'
                 src='/images/gallery5.jpg'
-                alt=''
+                alt='gallery image'
+                loading='lazy'
                 width={300}
                 height={300}
               />
@@ -143,7 +146,8 @@ export default function Home() {
               <Image
                 className='h-auto max-w-full rounded-lg'
                 src='/images/gallery6.jpg'
-                alt=''
+                alt='gallery image'
+                loading='lazy'
                 width={300}
                 height={300}
               />
@@ -152,7 +156,8 @@ export default function Home() {
               <Image
                 className='h-auto max-w-full rounded-lg'
                 src='/images/gallery4.jpg'
-                alt=''
+                alt='gallery image'
+                loading='lazy'
                 width={300}
                 height={300}
               />
@@ -161,7 +166,8 @@ export default function Home() {
               <Image
                 className='h-auto max-w-full rounded-lg'
                 src='/images/gallery8.jpg'
-                alt=''
+                alt='gallery image'
+                loading='lazy'
                 width={300}
                 height={300}
               />
@@ -172,7 +178,8 @@ export default function Home() {
               <Image
                 className='h-auto max-w-full rounded-lg'
                 src='/images/gallery11.jpg'
-                alt=''
+                alt='gallery image'
+                loading='lazy'
                 width={300}
                 height={300}
               />
@@ -181,7 +188,8 @@ export default function Home() {
               <Image
                 className='h-auto max-w-full rounded-lg'
                 src='/images/gallery3.jpg'
-                alt=''
+                alt='gallery image'
+                loading='lazy'
                 width={300}
                 height={300}
               />
@@ -190,7 +198,8 @@ export default function Home() {
               <Image
                 className='h-auto max-w-full rounded-lg'
                 src='/images/gallery10.jpg'
-                alt=''
+                alt='gallery image'
+                loading='lazy'
                 width={300}
                 height={300}
               />
@@ -201,7 +210,8 @@ export default function Home() {
               <Image
                 className='h-auto max-w-full rounded-lg'
                 src='/images/gallery9.jpg'
-                alt=''
+                alt='gallery image'
+                loading='lazy'
                 width={300}
                 height={300}
               />
@@ -210,7 +220,8 @@ export default function Home() {
               <Image
                 className='h-auto max-w-full rounded-lg'
                 src='/images/gallery12.jpg'
-                alt=''
+                alt='gallery image'
+                loading='lazy'
                 width={300}
                 height={300}
               />
@@ -219,7 +230,8 @@ export default function Home() {
               <Image
                 className='h-auto max-w-full rounded-lg'
                 src='/images/gallery2.jpg'
-                alt=''
+                alt='gallery image'
+                loading='lazy'
                 width={300}
                 height={300}
               />
