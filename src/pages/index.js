@@ -229,7 +229,7 @@ export default function Home() {
       </Container>
 
       <Container id='#team'>
-        <div className='text-white flex flex-col justify-center text-center gap-4'>
+        <div className='text-white flex flex-col justify-center text-center items-center gap-4'>
           <div className='text-2xl font-bold p-2 border-b-4 border-b-purp border-l-4 border-l-blu rounded-lg'>
             {t('home.team.title')}
           </div>
