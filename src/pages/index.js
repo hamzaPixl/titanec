@@ -82,11 +82,13 @@ export default function Home() {
           <div className='text-2xl font-bold p-2 border-b-4 border-b-purp border-r-4 border-r-blu rounded-lg'>
             {t('home.services.title')}
           </div>
-          <div className='text-base max-w-xl'>{t('home.services.description')}</div>
+          <div className='text-base max-w-xl animate-fade-right animate-once animate-delay-200'>
+            {t('home.services.description')}
+          </div>
         </div>
         <div className='flex md:flex-row flex-col gap-6'>
           <Image
-            className='rounded-md bg-purp p-2'
+            className='rounded-md bg-purp p-2 animate-fade animate-once animate-delay-200'
             loading='lazy'
             width={300}
             height={300}
@@ -94,7 +96,7 @@ export default function Home() {
             alt='Image'
           />
           <Image
-            className='rounded-md bg-blu p-2'
+            className='rounded-md bg-blu p-2 animate-fade animate-once animate-delay-200'
             loading='lazy'
             width={300}
             height={300}
@@ -102,7 +104,7 @@ export default function Home() {
             alt='Image'
           />
         </div>
-        <div className='flex flex-col gap-4 justify-center text-center flex-wrap text-white text-xl'>
+        <div className='flex flex-col gap-4 justify-center text-center flex-wrap text-white text-xl animate-fade-down animate-once animate-delay-200'>
           {t('home.description')}
         </div>
       </Container>
@@ -245,7 +247,9 @@ export default function Home() {
           <div className='text-2xl font-bold p-2 border-b-4 border-b-purp border-l-4 border-l-blu rounded-lg'>
             {t('home.team.title')}
           </div>
-          <div className='text-base max-w-xl'>{t('home.team.description')}</div>
+          <div className='text-base max-w-xl animate-fade-left animate-once animate-delay-200'>
+            {t('home.team.description')}
+          </div>
         </div>
         <div className='flex flex-row gap-4 justify-center items-center flex-wrap'>
           <div className='bg-white p-6 group items-center flex flex-col md:flex-row gap-4 hover:bg-transparent hover:transition-all hover:duration-300 duration-300'>
@@ -261,7 +265,9 @@ export default function Home() {
               <p className='font-bold text-xl'>
                 {t('team.ismael.name')} - <span className='text-purp'>{t('team.ismael.blaz')}</span>
               </p>
-              <p>{t('team.ismael.description')}</p>
+              <p className='animate-fade-down animate-once animate-delay-200'>
+                {t('team.ismael.description')}
+              </p>
             </div>
           </div>
           <div className='bg-white p-6 group items-center flex flex-col md:flex-row gap-4 hover:bg-transparent hover:transition-all hover:duration-300 duration-300'>
@@ -269,7 +275,9 @@ export default function Home() {
               <p className='font-bold text-xl'>
                 {t('team.wyatt.name')} - <span className='text-blu'>{t('team.wyatt.blaz')}</span>
               </p>
-              <p>{t('team.wyatt.description')}</p>
+              <p className='animate-fade-up animate-once animate-delay-200'>
+                {t('team.wyatt.description')}
+              </p>
             </div>
             <Image
               loading='lazy'
