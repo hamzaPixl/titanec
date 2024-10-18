@@ -27,8 +27,11 @@ export default function SEO() {
   const description = pageInfo?.meta?.description
     ? t(pageInfo?.meta?.description)
     : injected.description
-
   const metaData = [
+    {
+      name: 'google-site-verification',
+      content: injected.gVerification,
+    },
     {
       property: `og:url`,
       content: `${url}${router.asPath}`,
