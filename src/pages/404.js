@@ -4,7 +4,7 @@ import { useTranslate } from '../hooks/useTranslate'
 export default function NotFound() {
   const { t } = useTranslate()
   return (
-    <section className=''>
+    <section className='text-white'>
       <div className='py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6'>
         <div className='mx-auto max-w-screen-sm text-center'>
           <img
@@ -12,8 +12,8 @@ export default function NotFound() {
             src='https://flowbite.s3.amazonaws.com/blocks/marketing-ui/404/404-computer.svg'
             alt='404 Not Found'
           />
-          <h1 className='mb-4 text-2xl font-extrabold text-black'>{t('notfound.title')}</h1>
-          <p className='mb-10 text-3xl tracking-tight font-bold text-black md:text-4x'>
+          <h1 className='mb-4 text-2xl font-extrabold'>{t('notfound.title')}</h1>
+          <p className='mb-10 text-3xl tracking-tight font-bold md:text-4x'>
             {t('notfound.message')}
           </p>
           <Link

@@ -4,14 +4,14 @@ import { useTranslate } from '../hooks/useTranslate'
 export default function Maintenance() {
   const { t } = useTranslate()
   return (
-    <section className=''>
+    <section className='text-white'>
       <div className='grid-cols-2 gap-8 content-center py-8 px-4 mx-auto max-w-screen-xl md:grid lg:py-16 lg:px-6'>
         <div className='self-center'>
-          <h1 className='mb-4 text-2xl font-bold text-black'>{t('maintenance.title')}</h1>
-          <p className='mb-4 text-3xl tracking-tight font-bold lg:mb-10 md:text-4xl text-black'>
+          <h1 className='mb-4 text-2xl font-bold'>{t('maintenance.title')}</h1>
+          <p className='mb-4 text-3xl tracking-tight font-bold lg:mb-10 md:text-4xl'>
             {t('maintenance.description')}
           </p>
-          <p className='mb-10 text-3xl tracking-tight font-bold text-black md:text-4x'>
+          <p className='mb-10 text-3xl tracking-tight font-bold md:text-4x'>
             {t('notfound.message')}
           </p>
           <Link
