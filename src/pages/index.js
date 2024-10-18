@@ -16,7 +16,7 @@ export default function Home() {
           <div className='max-w-screen-xl mx-auto flex flex-col gap-4'>
             <Button message={t('header.appointment')} link={injected.rdv} />
             <div className='flex flex-row gap-10 justify-between items-center text-center'>
-              <Link className='text-white bg-purp p-4 rounded-md' href={injected.socials[0].link}>
+              <Link className='bg-white p-4 rounded-md' href={injected.socials[0].link}>
                 <Image
                   loading='lazy'
                   width={25}
@@ -26,7 +26,7 @@ export default function Home() {
                   alt={`Social ${injected.socials[0].title} - ${injected.socials[0].link}`}
                 />
               </Link>
-              <Link className='text-white bg-blu p-4 rounded-md' href={injected.socials[1].link}>
+              <Link className='bg-white p-4 rounded-md' href={injected.socials[1].link}>
                 <Image
                   loading='lazy'
                   width={25}
@@ -53,7 +53,7 @@ export default function Home() {
         <div className='absolute top-0 left-0 w-full h-full flex flex-col gap-4 items-center justify-center p-6 bg-black/40'>
           <Button message={t('header.appointment')} link={injected.rdv} />
           <div className='flex flex-row gap-10 justify-between items-center text-center'>
-            <Link className='text-white bg-purp p-4 rounded-md' href={injected.socials[0].link}>
+            <Link className='text-black bg-white p-4 rounded-md' href={injected.socials[0].link}>
               <Image
                 loading='lazy'
                 width={25}
@@ -63,7 +63,7 @@ export default function Home() {
                 alt={`Social ${injected.socials[0].title} - ${injected.socials[0].link}`}
               />
             </Link>
-            <Link className='text-white bg-blu p-4 rounded-md' href={injected.socials[1].link}>
+            <Link className='text-black bg-white p-4 rounded-md' href={injected.socials[1].link}>
               <Image
                 loading='lazy'
                 width={25}
@@ -104,8 +104,60 @@ export default function Home() {
             alt='Image'
           />
         </div>
-        <div className='flex flex-col gap-4 justify-center text-center flex-wrap text-white text-xl animate-fade-down animate-once animate-delay-200'>
+      </Container>
+
+      <Container>
+        <div className='bg-white p-6 rounded-lg max-w-xl flex flex-col gap-4 justify-center text-center flex-wrap text-black text-xl animate-fade-down animate-once animate-delay-200'>
           {t('home.description')}
+        </div>
+      </Container>
+
+      <Container id='#team'>
+        <div className='text-white flex flex-col justify-center text-center items-center gap-4'>
+          <div className='text-2xl font-bold p-2 border-b-4 border-b-purp border-l-4 border-l-blu rounded-lg'>
+            {t('home.team.title')}
+          </div>
+          <div className='text-base max-w-xl animate-fade-left animate-once animate-delay-200'>
+            {t('home.team.description')}
+          </div>
+        </div>
+        <div className='flex flex-row gap-4 justify-center items-center flex-wrap'>
+          <div className='bg-white p-6 group items-center flex flex-col md:flex-row gap-4 hover:bg-transparent hover:transition-all hover:duration-300 duration-300'>
+            <Image
+              loading='lazy'
+              width={300}
+              height={300}
+              className='rounded-md border-purp border-4'
+              src='/images/isma.jpg'
+              alt='Image'
+            />
+            <div className='flex flex-col gap-4 max-w-xs text-black group-hover:text-white transition-all duration-300 ease-in-out'>
+              <p className='font-bold text-xl'>
+                {t('team.ismael.name')} - <span className='text-purp'>{t('team.ismael.blaz')}</span>
+              </p>
+              <p className='animate-fade-down animate-once animate-delay-200'>
+                {t('team.ismael.description')}
+              </p>
+            </div>
+          </div>
+          <div className='bg-white p-6 group items-center flex flex-col md:flex-row gap-4 hover:bg-transparent hover:transition-all hover:duration-300 duration-300'>
+            <div className='flex flex-col gap-4 max-w-xs text-black group-hover:text-white transition-all duration-300 ease-in-out'>
+              <p className='font-bold text-xl'>
+                {t('team.wyatt.name')} - <span className='text-blu'>{t('team.wyatt.blaz')}</span>
+              </p>
+              <p className='animate-fade-up animate-once animate-delay-200'>
+                {t('team.wyatt.description')}
+              </p>
+            </div>
+            <Image
+              loading='lazy'
+              width={300}
+              height={300}
+              className='rounded-md border-blu border-4'
+              src='/images/wyatt.jpg'
+              alt='Image'
+            />
+          </div>
         </div>
       </Container>
 
@@ -238,55 +290,6 @@ export default function Home() {
                 height={300}
               />
             </div>
-          </div>
-        </div>
-      </Container>
-
-      <Container id='#team'>
-        <div className='text-white flex flex-col justify-center text-center items-center gap-4'>
-          <div className='text-2xl font-bold p-2 border-b-4 border-b-purp border-l-4 border-l-blu rounded-lg'>
-            {t('home.team.title')}
-          </div>
-          <div className='text-base max-w-xl animate-fade-left animate-once animate-delay-200'>
-            {t('home.team.description')}
-          </div>
-        </div>
-        <div className='flex flex-row gap-4 justify-center items-center flex-wrap'>
-          <div className='bg-white p-6 group items-center flex flex-col md:flex-row gap-4 hover:bg-transparent hover:transition-all hover:duration-300 duration-300'>
-            <Image
-              loading='lazy'
-              width={300}
-              height={300}
-              className='rounded-md border-purp border-4'
-              src='/images/isma.jpg'
-              alt='Image'
-            />
-            <div className='flex flex-col gap-4 max-w-xs text-black group-hover:text-white transition-all duration-300 ease-in-out'>
-              <p className='font-bold text-xl'>
-                {t('team.ismael.name')} - <span className='text-purp'>{t('team.ismael.blaz')}</span>
-              </p>
-              <p className='animate-fade-down animate-once animate-delay-200'>
-                {t('team.ismael.description')}
-              </p>
-            </div>
-          </div>
-          <div className='bg-white p-6 group items-center flex flex-col md:flex-row gap-4 hover:bg-transparent hover:transition-all hover:duration-300 duration-300'>
-            <div className='flex flex-col gap-4 max-w-xs text-black group-hover:text-white transition-all duration-300 ease-in-out'>
-              <p className='font-bold text-xl'>
-                {t('team.wyatt.name')} - <span className='text-blu'>{t('team.wyatt.blaz')}</span>
-              </p>
-              <p className='animate-fade-up animate-once animate-delay-200'>
-                {t('team.wyatt.description')}
-              </p>
-            </div>
-            <Image
-              loading='lazy'
-              width={300}
-              height={300}
-              className='rounded-md border-blu border-4'
-              src='/images/wyatt.jpg'
-              alt='Image'
-            />
           </div>
         </div>
       </Container>

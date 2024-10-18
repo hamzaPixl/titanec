@@ -64,7 +64,7 @@ export default function Footer() {
                 loading='lazy'
                 width={20}
                 height={20}
-                src={`/icons/${item.title}.svg`}
+                src={`/icons/${item.title}-white.svg`}
                 alt={`Social ${item.title} - ${item.link}`}
               />
             </Link>

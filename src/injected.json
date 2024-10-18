@@ -1,12 +1,12 @@
 {
   "keywords": ["coiffure", "homme", "54cutz", "salon"],
-  "title": "54cutz salon de coiffure",
-  "description": "54cutz salon de coiffure",
+  "title": "Salon 54cutz",
+  "description": "Salon 54cutz",
   "manifest": {
-    "projectShortName": "54cutz salon de coiffure",
+    "projectShortName": "Salon 54cutz",
     "themeColor": "#000000",
     "url": "https://www.54cutz.com/",
-    "description": "54cutz salon de coiffure",
+    "description": "Salon 54cutz",
     "display": "standalone",
     "orientation": "portrait",
     "backgroundColor": "#000000"
