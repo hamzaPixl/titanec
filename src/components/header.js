@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <nav
       className={
-        'z-50 sticky top-0 mx-auto overflow-auto transition-all duration-300 ease-in-out bg-black text-white'
+        'z-50 sticky top-0 mx-auto overflow-auto transition-all duration-300 ease-in-out bg-black text-white hidden'
       }
     >
       <div className={`p-4 md:p-8 w-full max-w-screen-xl mx-auto`}>

@@ -1,33 +1,7 @@
 {
-  "header.appointment": "Rendez-vous",
-
-  "home.description": "Bienvenue au salon 54cutz ! Nous sommes Ismaël et Wyatt, de jeunes barbers passionnés ayant le sens du détail. Nous sommes à l'affut des dernières tendances de coupes.",
-
-  "home.team.title": "Notre équipe",
-  "home.team.description": "Découvrez notre équipe de coiffeurs professionnels.",
-
-  "home.contact.title": "Contact",
-  "home.contact.description": "Idéalement situé, le salon « 54cutz » est facilement accessible via l'autoroute (E411) et les transports en commun (bus TEC). Il est également possible de se garer devant la vitrine du salon.",
-
-  "home.services.title": "Nos services",
-  "home.services.description": "Découvrez nos services de coiffure pour hommes.",
-
-  "home.gallery.title": "Galerie",
-  "home.gallery.description": "Découvrez notre salon de coiffure.",
-
-  "home.horaire.title": "Horaires",
-
-  "team.ismael.name": "Ismaël",
-  "team.ismael.blaz": "54cutz",
-  "team.ismael.description": "Je m’appelle Ismaël, mais on me connaît sous le nom de 54cutz. Cela fait maintenant trois ans que je pratique en tant que barber. Passionné et professionnel, ma priorité est toujours la satisfaction de mes clients. Exigeant envers moi-même, je m’assure que chaque détail est parfait. Sociable de nature, j’apprécie voir les gens heureux, que ce soit dans mon travail ou dans ma vie personnelle.",
-
-  "team.wyatt.name": "Wyatt",
-  "team.wyatt.blaz": "W9 Cutzz",
-  "team.wyatt.description": "Je m’appelle Wyatt, également connu sous le nom de W9 Cutzz. Passionné par la coiffure depuis plus d’un an, j’ai 18 ans et je suis à la fois engagé et perfectionniste. J’aime que chaque chose soit réalisée avec soin et précision. Bien que je sois de nature timide dans la vie quotidienne, je reste entièrement investi dans mon travail et fais preuve de professionnalisme quand il le faut.",
-
-  "footer.politic.1": "Des frais seront appliqués lorsqu'une réservation est annulée ou que le client ne se présente pas.",
-  "footer.politic.2": "Si le client annule son RDV moins de 24h à l'avance, 50% du prix du service sélectionné sera à payer. Si le client annule son RDV moins de 12h à l'avance ou ne s'y présente pas, la totalité du prix du service sélectionné sera à payer.",
-  "footer.politic.3": "Les payements sont sécurisés. Nous n'avons accès à aucun compte et les coordonnées bancaires sont chiffrées. En prenant RDV, vous acceptez la politique d'annulation.",
+  "home.comingSoon.title": "Bientôt ",
+  "home.comingSoon.span": "disponible",
+  "home.comingSoon.description": "Notre site est en cours de construction.",
 
   "notfound.title": "Page non trouvée",
   "notfound.message": "La page que vous recherchez n'existe pas.",
@@ -37,7 +11,7 @@
   "maintenance.description": "Le site est actuellement en maintenance. Nous serons de retour bientôt.",
   "maintenance.back": "Retourner à l'accueil",
 
-  "home.meta.title": "Salon 54cutz",
-  "home.meta.description": "Salon 54cutz",
-  "home.meta.keywords": ["coiffure", "homme", "54cutz", "salon"]
+  "home.meta.title": "Novamed | Cabinet medical",
+  "home.meta.description": "Novamed cabinet medical",
+  "home.meta.keywords": ["medecin", "houba", "novamed", "malade", "cabinet"]
 }

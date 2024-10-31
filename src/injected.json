@@ -1,18 +1,17 @@
 {
-  "keywords": ["coiffure", "homme", "54cutz", "salon"],
-  "title": "Salon 54cutz",
-  "description": "Salon 54cutz",
+  "keywords": ["medecin", "houba", "novamed", "malade", "cabinet"],
+  "title": "Novamed | Cabinet medical",
+  "description": "Novamed cabinet medical",
   "manifest": {
-    "projectShortName": "Salon 54cutz",
-    "themeColor": "#000000",
-    "url": "https://www.54cutz.com/",
-    "description": "Salon 54cutz",
+    "projectShortName": "Novamed cabinet medical",
+    "themeColor": "#ed213e",
+    "url": "https://www.novamed.be/",
+    "description": "Novamed cabinet medical",
     "display": "standalone",
     "orientation": "portrait",
-    "backgroundColor": "#000000"
+    "backgroundColor": "#ed213e"
   },
-  "gtag": "G-9QGEMPZF4L",
-  "gVerification": "VJey3dkhxJdGlJlqIzAETb-kAs-IdA4Wcj9Lcj3Ig4o",
+  "gtag": "G-xxx",
   "pages": [
     {
       "title": "link.home",
@@ -24,27 +23,18 @@
       }
     }
   ],
-  "socials": [
-    {
-      "title": "instagram",
-      "link": "https://www.instagram.com/54cutz_"
-    },
-    {
-      "title": "tiktok",
-      "link": "https://www.tiktok.com/@54cutz_"
-    }
-  ],
+  "socials": [],
   "sla": [],
   "address": {
-    "url": "https://maps.app.goo.gl/MeD6JCeBeRzEVMH97",
-    "address": "Chau. de Charleroi 45, 1360 Perwez"
+    "url": "https://maps.app.goo.gl/Syji96gp16iBVE3DA",
+    "address": "Avenue houba de strooper 101, 1020 Laken, Bruxelles"
   },
-  "companyName": "54cutz",
-  "tel": "+32479832856",
-  "email": "54cutz@gmail.com",
-  "web": "https://www.54cutz.com",
-  "tva": "BE0803.277.289",
-  "rdv": "https://salonkee.be/salon/54-cutz?lang=fr",
+  "companyName": "Novamed",
+  "tel": "+32484990154",
+  "email": "contact@novamed.be",
+  "web": "https://www.novamed.be",
+  "tva": "BE1010684768",
+  "rdv": "",
   "locales": ["fr"],
   "defaultLocale": "fr",
   "author": {

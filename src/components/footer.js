@@ -9,7 +9,7 @@ export default function Footer() {
   const { t } = useTranslate()
 
   return (
-    <footer className='bg-black text-white text-sm'>
+    <footer className='bg-black text-white text-sm hidden'>
       <div className={`p-6 w-full max-w-screen-xl mx-auto`}>
         <div className='font-bold leading-normal w-full flex flex-col md:flex-row md:items-center justify-between gap-4'>
           <Link href={'/'} className='w-[182px] h-[56px] md:h-[70px] md:w-[228px] relative'>

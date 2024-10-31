@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://54cutz.com
+Host: https://novamed.com
 
 # Sitemaps
-Sitemap: https://54cutz.com/sitemap.xml
+Sitemap: https://novamed.com/sitemap.xml
