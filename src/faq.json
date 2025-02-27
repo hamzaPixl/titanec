@@ -1,0 +1,30 @@
+[
+  {
+    "question": "Quels professionnels de santé sont disponibles chez Novamed ?",
+    "answer": "Novamed met à votre disposition une équipe pluridisciplinaire composée de :\n• 1 médecin généraliste\n• 1 rhumatologue\n• 2 kinésithérapeutes\n• 1 psychologue\n• Un secrétariat médical pour vous accompagner dans vos démarches."
+  },
+  {
+    "question": "Comment prendre rendez-vous ?",
+    "answer": "Vous pouvez prendre rendez-vous :\n• En ligne, via le bouton dédié sur notre site web.\n• Par téléphone, en appelant le 02 449 02 06."
+  },
+  {
+    "question": "Comment annuler un rendez-vous ?",
+    "answer": "Toute annulation doit être signalée au moins 24 heures à l’avance afin de permettre à d’autres patients de bénéficier d’un créneau disponible."
+  },
+  {
+    "question": " Comment renouveler une prescription médicale ?",
+    "answer": "Si vous avez besoin d’un renouvellement de prescription pour un médicament chronique, vous pouvez en faire la demande par téléphone au moins 24 heures à l’avance."
+  },
+  {
+    "question": "Quels moyens de paiement acceptez-vous ?",
+    "answer": "Nous acceptons uniquement les paiements par carte bancaire et via certaines applications de paiement mobile. Les paiements en espèces ne sont pas acceptés."
+  },
+  {
+    "question": "Le centre est-il accessible aux personnes à mobilité réduite ?",
+    "answer": "Oui, Novamed est équipé pour accueillir les personnes à mobilité réduite."
+  },
+  {
+    "question": "Proposez-vous des consultations à domicile ?",
+    "answer": "Les consultations à domicile sont à discuter directement avec votre médecin traitant."
+  }
+]

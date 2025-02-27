@@ -1,38 +1,27 @@
+import Image from 'next/image'
 import Link from 'next/link'
-import React from 'react'
+import merge from '../lib/merge'
 
-export default function Button({ message, link, onClick, className }) {
+export default function Button({ label, icon, className, imageClassName, link = '/' }) {
   return (
-    <button
-      onClick={onClick}
-      className={`${className} uppercase rounded-xl p-5 transition-all ease-in-out duration-300 hover:text-white hover:bg-transparent bg-white text-black font-bold text:xs md:text-md leading-normal border-2 border-white`}
-      type='submit'
-    >
-      {link ? <Link href={link}>{message}</Link> : <span>{message}</span>}
-    </button>
-  )
-}
-
-export function ButtonSecondary({ message, link, onClick, className }) {
-  return (
-    <button
-      onClick={onClick}
-      className={`${className} rounded-xl p-5 transition-all ease-in-out duration-300 bg-transaprent text-black font-bold text:xs md:text-md leading-normal border-2 border-transparent hover:border-black`}
-      type='submit'
-    >
-      {link ? <Link href={link}>{message}</Link> : <span>{message}</span>}
-    </button>
-  )
-}
-
-export function InvertedButton({ message, link, onClick, className }) {
-  return (
-    <button
-      onClick={onClick}
-      className={`${className} rounded-xl p-5 transition-all ease-in-out duration-300 hover:text-primary-700 hover:bg-transparent bg-primary-700 text-white font-bold text:xs md:text-md leading-normal border-2 border-primary-700`}
-      type='submit'
-    >
-      {link ? <Link href={link}>{message}</Link> : <span>{message}</span>}
-    </button>
+    <Link href={link}>
+      <div
+        className={merge(
+          'flex group flex-row gap-1 items-center p-3 text-md font-medium text-white bg-light-900 hover:bg-primary-600 rounded-3xl shadow-sm hover:translate-x-1 transition-transform ease-in-out duration-300',
+          className,
+        )}
+      >
+        {icon && (
+          <Image
+            width={20}
+            height={20}
+            alt='Icon button'
+            src={icon}
+            className={merge(imageClassName)}
+          />
+        )}
+        {label}
+      </div>
+    </Link>
   )
 }

@@ -1,10 +1,11 @@
 import Link from 'next/link'
 import { useTranslate } from '../hooks/useTranslate'
+import Image from 'next/image'
 
 export default function Maintenance() {
   const { t } = useTranslate()
   return (
-    <section className='text-white'>
+    <section className='bg-light-900 h-screen flex flex-col items-center'>
       <div className='grid-cols-2 gap-8 content-center py-8 px-4 mx-auto max-w-screen-xl md:grid lg:py-16 lg:px-6'>
         <div className='self-center'>
           <h1 className='mb-4 text-2xl font-bold'>{t('maintenance.title')}</h1>
@@ -27,6 +28,9 @@ export default function Maintenance() {
           alt='500 Server Error'
         />
       </div>
+      <Link href={'/'} className='w-32'>
+        <Image width={200} height={150} src='/logo-footer.svg' alt={`Logo`} />
+      </Link>
     </section>
   )
 }

@@ -1,0 +1,95 @@
+[
+  {
+    "id": "1",
+    "title": "Dr CHEBLI Soufiane",
+    "role": "Médecin Généraliste",
+    "phone": "+3224490206",
+    "rdv": "https://rosa.be/fr/hp/soufiane-chebli/",
+    "email": "accueil@novamed.be",
+    "image": "/images/team/soufiane.jpeg",
+    "inami": "10252889006",
+    "about": "Médecin généraliste diplômé de l'Université Catholique de Louvain, je suis profondément attaché à Laeken, où je suis né et ai grandi. Cet ancrage local guide mon engagement à offrir des soins de proximité accessibles et de qualité.\n\nJ'assure la prise en charge des adultes et des enfants en combinant une approche humaine, bienveillante et préventive. Mon travail repose sur l'écoute, le suivi personnalisé et une relation de confiance avec mes patients. Au sein du centre médical Novamed, j'incarne les valeurs fondamentales d'Humanisme, Respect et Excellence.\n\nMon objectif est d'accompagner chaque patient tout au long de son parcours de santé, en mettant à disposition une médecine attentive et adaptée à leurs besoins.\n\nJe serai heureux de vous accueillir et de vous accompagner dans votre suivi médical.",
+    "services": [
+      {
+        "id": "services.general",
+        "name": "services.general.title",
+        "link": "/services/services.general",
+        "icon": "/icons/heart-white.svg"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "title": "BOUDHAN Ilias",
+    "role": "Kinésithérapeute",
+    "phone": "+3224490206",
+    "email": "accueil@novamed.be",
+    "inami": "55681760527",
+    "rdv": "https://rosa.be/fr/hp/ilias-boudhan/",
+    "image": "/images/team/ilias.jpeg",
+    "about": "Diplômé du Parnasse, spécialisé dans la prise en charge des pathologies du sportif et des lombalgies. Intervient également dans un club de football pour accompagner les sportifs dans leur rééducation et leur retour au terrain. Utilise une approche personnalisée combinant thérapie manuelle, exercices fonctionnels et réathlétisation afin d’optimiser la récupération et prévenir les récidives.",
+    "services": [
+      {
+        "id": "services.kine",
+        "name": "services.kine.title",
+        "link": "/services/services.kine",
+        "icon": "/icons/kine-white.svg"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "title": "WEHBE Nada",
+    "role": "Kinésithérapeute",
+    "phone": "+3224490206",
+    "rdv": "https://rosa.be/fr/org/org-chebli/",
+    "email": "accueil@novamed.be",
+    "image": "/images/team/nada.jpeg",
+    "about": "Diplômée d’un Master en kinésithérapie à la Haute École Libre de Bruxelles, je me consacre à cette vocation qui me passionne : aider chacun à préserver et améliorer ses capacités physiques, tout en tenant compte du bien-être global de la personne.\n\nAu cours de ma formation, j’ai eu la chance d’effectuer divers stages dans différentes spécialités, ce qui a été particulièrement enrichissant pour mon développement professionnel et personnel.\n\nJ’adopte une approche centrée sur le patient, en l’impliquant activement dans son programme de rééducation pour personnaliser au mieux chaque traitement. Je reste à l’écoute de vos besoins spécifiques et privilégie un véritable travail d’équipe afin d’optimiser la prise en charge.\n\nEmpathique et sérieuse, je suis impatiente de mettre mes compétences au service de chacun. Je crois fermement que l’approche pluridisciplinaire, réunissant médecins et autres soignants, offre la meilleure garantie d’un traitement global et efficace.",
+    "services": [
+      {
+        "id": "services.kine",
+        "name": "services.kine.title",
+        "link": "/services/services.kine",
+        "icon": "/icons/kine-white.svg"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Dr CHERIF Mohammad Yassine",
+    "role": "Rhumatologue",
+    "phone": "+3224490206",
+    "image": "/images/team/yassine.jpeg",
+    "inami": "10263885790",
+    "rdv": "https://rosa.be/fr/hp/mohammad-cherif/",
+    "email": "accueil@novamed.be",
+    "about": "Diplômé spécialiste en rhumatologie à l'ULB (2024, grande distinction), résident en rhumatologie au CHU Erasme (2024) et membre de la Société Royale Belge de Rhumatologie, mon tropisme est celui de l'immune-rhumatologie dont le diagnostic et la prise en charge maladies auto-immunes systémiques complexes (Lupus érythémateux systémique, sclérodermie systémique, maladie de Siögren, myopathie inflammatoire, sarcoïdose, maladie de Behçet, polyarthrite rhumatoïde, maladies auto-inflammatoires monogéniques, ...).\n\nJ'ai à cet effet réaliser ma formation en centres universitaires dont à l'hôpital La Pitié\n\nSalpêtrière (Paris, France), référence internationale en la matière.\n\nEn outre, j'ai réalisé durant ma spécialisation plusieurs travaux de recherche scientifiques et formations inter-universitaires dans ces thématiques dont la formation interuniversitaire en études approfondies en polyarthrites et maladies systémiques\n\n(CHU Montpellier 2020), en échographie muscule-squelettique (CHU Liège et UZ Ghent,\n\n2022), la certification EULAR Online Course traitant des maladies rhumatismales (16° édition, 2022-2023), la certification EULAR Online Course traitant du lupus érythémateux systémique (6° édition, 2024-2025).\n\nMa formation préalable en médecine interne permet une prise en charge globale et la gestion de ces maladies souvent chroniques.",
+    "services": [
+      {
+        "id": "services.rhumato",
+        "name": "services.rhumato.title",
+        "link": "/services/services.rhumato",
+        "icon": "/icons/general-white.svg"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "title": "MILOUD Salma",
+    "rdv": "https://rosa.be/fr/hp/salma-miloud/",
+    "role": "Psychologue",
+    "phone": "+3224490206",
+    "image": "/images/team/salma.jpeg",
+    "email": "accueil@novamed.be",
+    "about": "Psychologue clinicienne diplômée de l'ULB, j’ai à cœur d’offrir un espace d’écoute bienveillant, adapté aux besoins de chacun. Je propose des consultations pour la gestion des émotions, les difficultés relationnelles, ainsi que des tests psychologiques pour aider à l’évaluation et au diagnostic. Mon approche est systémique et prend en compte votre vécu dans toute sa complexité. J’accompagne enfants, adolescents et adultes. Consultation en français et en anglais.",
+    "services": [
+      {
+        "id": "services.psy",
+        "name": "services.psy.title",
+        "link": "/services/services.psy",
+        "icon": "/icons/psy-white.svg"
+      }
+    ]
+  }
+]

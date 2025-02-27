@@ -1,7 +1,106 @@
 {
+  "link.home": "Accueil",
+  "link.about": "À propos de nous",
+  "link.services": "Nos services",
+  "link.doctors": "Notre équipe",
+  "link.contact": "Contact",
+  "link.center": "Notre centre",
+
+  "header.button": "Prendre Rendez-Vous",
+
+  "footer.description": "Litum ipsum dolor sit amet consectetur commodo aliquam aug duis aliqu et ipsum donec tempus ac interdum enim.",
+  "footer.pages": "Nos rubriques",
+  "footer.legal": "Mentions légales",
+  "footer.policy": "Politique de confidentialité",
+  "footer.terms": "Conditions d'utilisation",
+  "footer.cookies": "Cookies",
+  "footer.slogan": "Des soins pour tous, proches de vous.",
+  "footer.button": "Prendre Rendez-Vous",
+  "footer.greetings.dev": "Made with love by",
+  "footer.greetings.designer": "And Designed by",
+  "about.title": "À propos de nous",
+  "about.description": "Litum ipsum dolor sit amet consectetur commodo aliquam aug duis aliqu et ipsum donec tempus ac interdum enim.",
+  "about.button": "Prendre Rendez-Vous",
+
+  "home.about.span": "Notre mission",
+  "home.about.title": "Nous nous engageons à rendre les soins accessibles à tous, avec une approche moderne et humaine.",
+  "home.about.description": "Consultations sur place, visites à domicile pour les plus vulnérables, et un espace dédié aux prises de sang : tout est pensé pour vous accompagner de façon personnalisée et professionnelle.",
+  "home.about.button": "Prendre Rendez-Vous",
+
+  "home.contact.visit": "Sur place",
+  "home.contact.map": "Ouvrir sur Google maps",
+  "home.contact.phone": "Par téléphone",
+  "home.contact.email": "Par email",
+  "home.contact.opening": "Heures d'ouverture",
+  "home.contact.opening.span.week": "Lun - Ven :",
+  "home.contact.opening.span.weekEnd": "Samedi :",
+  "home.contact.opening.span.weekEnd2": "Dimanche :",
+
+  "home.contact.metro": "Métro Houba Brugmann",
+  "home.contact.opening.week": "9h - 13h | 14h - 18h",
+  "home.contact.opening.weekEnd": "9h - 13h",
+  "home.contact.opening.weekEnd2": "Fermé",
+
+  "home.contact.title": "Contactez-nous",
+  "home.contact.description": "Notre équipe est à votre écoute pour répondre à toutes vos questions et vous accompagner dans votre parcours de soins.",
+
+  "home.values.span": "Pourquoi nous choisir ?",
+  "home.values.title": "Nos valeurs",
+  "home.values.description": "Litum ipsum dolor sit amet consectetur commodo aliquam aug duis aliqu et ipsum donec tempus ac interdum enim.",
+  "home.value1.title": "Humanisme",
+  "home.value1.description": "Chez Novamed, chaque patient est traité avec dignité, bienveillance et écoute. Nous plaçons l'humain au cœur de nos soins, pour offrir une prise en charge attentive et personnalisée.",
+  "home.value2.title": "Respect",
+  "home.value2.description": "Nous respectons chaque individu dans sa singularité. Nos soins sont adaptés à vos besoins, tout en garantissant confidentialité et considération à chaque étape de votre parcours de santé.",
+  "home.value3.title": "Excellence",
+  "home.value3.description": "Nos médecins sont engagés à fournir des soins de haute qualité, en s’appuyant sur une expertise médicale solide et des technologies de pointe pour garantir les meilleurs résultats possibles.",
+
+  "home.team.span": "Notre équipe",
+  "home.team.title": "Rencontrez notre équipe de professionnels",
+  "home.team.button": "Voir l'équipe",
+
+  "about.cta.title": "À propos de nous",
+  "about.cta.description": "Litum ipsum dolor sit amet consectetur commodo aliquam aug duis aliqu et ipsum donec tempus ac interdum enim.",
+  "about.kpi1.title": "KPI 1",
+  "about.kpi1.value": "100k+",
+  "about.kpi2.title": "KPI 2",
+  "about.kpi2.value": "100k+",
+  "about.kpi3.title": "KPI 3",
+  "about.kpi3.value": "100k+",
+  "about.services.title": "The values that inspire our every decision",
+
+  "doctors.title": "Notre équipe",
+  "doctors.description": "Des professionnels de santé prêts à vous accompagner dans votre parcours de soins.",
+
+  "center.meta.title": "Novamed | Centre médical",
+  "center.meta.description": "Novamed, Centre médical",
+  "center.meta.keywords": ["medecin", "houba", "novamed", "malade", "centre"],
+
+  "center.hero.title": "Centre médical",
+  "center.hero.description": "Litum ipsum dolor sit amet consectetur commodo aliquam aug duis aliqu et ipsum donec tempus ac interdum enim.",
+  "center.mapLink": "Voir sur la carte",
+
+  "about.meta.title": "Novamed | À propos de nous",
+  "about.meta.description": "Novamed, À propos de nous",
+  "about.meta.keywords": ["medecin", "houba", "novamed", "malade", "centre"],
+
+  "contact.meta.title": "Novamed | Contactez-nous",
+  "contact.meta.description": "Novamed, Contactez-nous",
+  "contact.meta.keywords": ["medecin", "houba", "novamed", "malade", "centre"],
+
+  "doctors.meta.title": "Novamed | Notre équipe",
+  "doctors.meta.description": "Novamed, Notre équipe",
+  "doctors.meta.keywords": ["medecin", "houba", "novamed", "malade", "centre"],
+
+  "services.meta.title": "Novamed | Nos services",
+  "services.meta.description": "Novamed, Nos services",
+  "services.meta.keywords": ["medecin", "houba", "novamed", "malade", "centre"],
+
   "home.comingSoon.title": "Bientôt ",
   "home.comingSoon.span": "disponible",
   "home.comingSoon.description": "Notre site est en cours de construction.",
+
+  "home.title": "Bienvenue au Centre Médical Novamed",
+  "home.description": "Des soins pour tous, proches de vous.",
 
   "notfound.title": "Page non trouvée",
   "notfound.message": "La page que vous recherchez n'existe pas.",
@@ -11,7 +110,71 @@
   "maintenance.description": "Le site est actuellement en maintenance. Nous serons de retour bientôt.",
   "maintenance.back": "Retourner à l'accueil",
 
-  "home.meta.title": "Novamed | Cabinet medical",
-  "home.meta.description": "Novamed cabinet medical",
-  "home.meta.keywords": ["medecin", "houba", "novamed", "malade", "cabinet"]
+  "home.meta.title": "Novamed | Centre medical",
+  "home.meta.description": "Novamed centre medical",
+  "home.meta.keywords": ["medecin", "houba", "novamed", "malade", "centre"],
+
+  "footer.politic.1": "Politique de confidentialité",
+  "footer.politic.2": "Mentions légales",
+  "footer.politic.3": "Cookies",
+
+  "faq.title": "Foire aux questions",
+  "faq.description": "Litum ipsum dolor sit amet consectetur commodo aliquam aug  duis aliqu  et ipsum donec tempus ac interdum enim.",
+
+  "doctor.specialities": "Spécialités",
+  "doctor.education": "Éducation",
+  "doctor.services": "Services",
+  "doctor.about": "À propos",
+  "doctor.contact": "Contact",
+  "doctor.more": "Rencontrez d'autres professionnels",
+  "doctor.button": "Voir l'équipe",
+
+  "doctor.rdv": "Prendre rendez-vous",
+
+  "services.general.title": "Médecine générale",
+  "services.general.description": "Médecine générale pour adultes et enfants, consultations sur place avec et sans rendez-vous.",
+
+  "services.kine.title": "Kinésithérapie",
+  "services.kine.description": "Kinésithérapie pour adultes et enfants, rééducation, massages et soins spécialisés.",
+
+  "services.psy.title": "Psychologie",
+  "services.psy.description": "Consultations individuelles et familiales, thérapie de couple, soutien psychologique et coaching.",
+
+  "services.rhumato.title": "Rhumatologie",
+  "services.rhumato.description": "Consultations spécialisées, diagnostic et traitement des maladies rhumatismales.",
+
+  "contact.title": "Contactez-nous",
+  "contact.description": "Notre équipe est à votre écoute pour répondre à toutes vos questions et vous accompagner dans votre parcours de soins.",
+
+  "services.title": "Nos Services",
+  "services.description": "Nous offrons une approche pluridisciplinaire en médecine générale, spécialisée et soins paramédicaux.",
+  "services.button": "Tous nos services",
+
+  "policy.cookies.page": "Politique de cookies",
+  "policy.cookies.title": "Politique de cookies",
+  "policy.cookies.description": "Litum ipsum dolor sit amet consectetur commodo aliquam aug duis aliqu et ipsum donec tempus ac interdum enim.",
+
+  "policy.terms.page": "Mentions légales",
+  "policy.terms.title": "Mentions légales",
+  "policy.terms.description": "Litum ipsum dolor sit amet consectetur commodo aliquam aug duis aliqu et ipsum donec tempus ac interdum enim.",
+
+  "policy.privacy.page": "Politique de confidentialité",
+  "policy.privacy.title": "Politique de confidentialité",
+  "policy.privacy.description": "Litum ipsum dolor sit amet consectetur commodo aliquam aug duis aliqu et ipsum donec tempus ac interdum enim.",
+
+  "newsletter.title": "Inscrivez-vous à notre newsletter",
+  "newsletter.description": "pour recevoir des informations sur nos services et les dernières actualités du Centre Médical Novamed.",
+  "newsletter.email": "Votre email",
+  "newsletter.submit": "S'inscrire",
+
+  "contact.form.firstName": "Prénom",
+  "contact.form.lastName": "Nom",
+  "contact.form.email": "Email",
+  "contact.form.phone": "Phone",
+  "contact.form.subject": "Sujet",
+  "contact.form.submit": "Envoyer",
+  "contact.form.message": "Message",
+  "contact.form.send": "Envoyer",
+  "contact.form.success": "Votre message a été envoyé avec succès.",
+  "contact.form.error": "Une erreur s'est produite lors de l'envoi de votre message. Veuillez réessayer plus tard."
 }

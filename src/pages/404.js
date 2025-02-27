@@ -1,10 +1,11 @@
 import Link from 'next/link'
 import { useTranslate } from '../hooks/useTranslate'
+import Image from 'next/image'
 
 export default function NotFound() {
   const { t } = useTranslate()
   return (
-    <section className='text-white'>
+    <section className='bg-light-900 h-screen flex flex-col items-center'>
       <div className='py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6'>
         <div className='mx-auto max-w-screen-sm text-center'>
           <img
@@ -24,6 +25,9 @@ export default function NotFound() {
           </Link>
         </div>
       </div>
+      <Link href={'/'} className='w-32'>
+        <Image width={200} height={150} src='/logo-footer.svg' alt={`Logo`} />
+      </Link>
     </section>
   )
 }
