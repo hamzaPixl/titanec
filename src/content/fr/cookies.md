@@ -25,4 +25,4 @@ Nous pouvons mettre à jour cette politique de cookies de temps en temps. Les mo
 
 ## 6. Contact
 
-Pour toute question concernant cette politique de cookies, veuillez nous contacter à [adresse e-mail de contact].
+Pour toute question concernant cette politique de cookies, veuillez nous contacter à accueil@novamed.be.

@@ -16,6 +16,22 @@
   }
 }
 
+@layer base {
+  p,
+  span {
+    @apply text-light-900;
+  }
+  h1 {
+    @apply text-3xl font-bold;
+  }
+  h2 {
+    @apply text-2xl;
+  }
+  h3 {
+    @apply text-xl;
+  }
+}
+
 .transition-all {
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;

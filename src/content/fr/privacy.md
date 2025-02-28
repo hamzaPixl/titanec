@@ -22,7 +22,7 @@ Nous mettons en œuvre des mesures de sécurité pour protéger vos informations
 
 ## 6. Vos Droits
 
-Vous avez le droit d'accéder, de rectifier ou de supprimer vos données personnelles. Pour exercer ces droits, veuillez nous contacter à [adresse e-mail de contact].
+Vous avez le droit d'accéder, de rectifier ou de supprimer vos données personnelles. Pour exercer ces droits, veuillez nous contacter à accueil@novamed.be.
 
 ## 7. Modifications de la Politique
 
@@ -30,4 +30,4 @@ Nous pouvons mettre à jour cette politique de confidentialité de temps en temp
 
 ## 8. Contact
 
-Pour toute question concernant cette politique, veuillez nous contacter à [adresse e-mail de contact].
+Pour toute question concernant cette politique, veuillez nous contacter à accueil@novamed.be.

@@ -22,4 +22,4 @@ Nous nous réservons le droit de modifier ces conditions à tout moment. Les mod
 
 ## 6. Contact
 
-Pour toute question concernant ces conditions, veuillez nous contacter à [adresse e-mail de contact].
+Pour toute question concernant ces conditions, veuillez nous contacter à accueil@novamed.be.
