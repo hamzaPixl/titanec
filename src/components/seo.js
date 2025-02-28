@@ -26,16 +26,13 @@ export default function SEO() {
   const author = injected.author.url
   const url = injected.manifest.url
 
-  const ressource =
-    doctors.find((doctor) => doctor.id === router.query.slug) ||
-    services.find((service) => service.id === router.query.slug)
   let dynamicName = ''
-  if (ressource?.title) {
-    dynamicName = ressource.title
-  }
 
-  if (ressource?.title) {
-    dynamicName = t(ressource.title)
+  if (route.includes('doctors')) {
+    dynamicName = doctors.find((doctor) => doctor.id === router.query.slug)?.title
+  } else if (route.includes('services')) {
+    const service = services.find((service) => service.id === router.query.slug)?.title
+    dynamicName = t(service)
   }
 
   const replaceTemplate = (template) => template.replace('{name}', dynamicName || '')
