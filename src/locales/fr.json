@@ -128,20 +128,19 @@
 
   "policy.cookies.page": "Politique de cookies",
   "policy.cookies.title": "Politique de cookies",
-  "policy.cookies.description": "Litum ipsum dolor sit amet consectetur commodo aliquam aug duis aliqu et ipsum donec tempus ac interdum enim.",
 
   "policy.terms.page": "Mentions légales",
   "policy.terms.title": "Mentions légales",
-  "policy.terms.description": "Litum ipsum dolor sit amet consectetur commodo aliquam aug duis aliqu et ipsum donec tempus ac interdum enim.",
 
   "policy.privacy.page": "Politique de confidentialité",
   "policy.privacy.title": "Politique de confidentialité",
-  "policy.privacy.description": "Litum ipsum dolor sit amet consectetur commodo aliquam aug duis aliqu et ipsum donec tempus ac interdum enim.",
 
   "newsletter.title": "Inscrivez-vous à notre newsletter",
   "newsletter.description": "pour recevoir des informations sur nos services et les dernières actualités du Centre Médical Novamed.",
   "newsletter.email": "Votre email",
   "newsletter.submit": "S'inscrire",
+  "newsletter.form.success": "Merci pour votre inscription à notre newsletter.",
+  "newsletter.form.error": "Veuillez réessayer plus tard.",
 
   "contact.form.firstName": "Prénom",
   "contact.form.lastName": "Nom",

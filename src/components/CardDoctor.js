@@ -36,7 +36,7 @@ export default function CardDoctor({
             className='bg-primary-600 rounded-full p-1 group-hover:bg-light-900 transform ease-in duration-300'
           />
           <p>{role}</p>
-        </div>{' '}
+        </div>
       </div>
     </Link>
   )

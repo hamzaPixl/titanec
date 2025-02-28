@@ -32,6 +32,7 @@ export default function MenuOverlay({ navbarOpen, setNavbarOpen }) {
         ))}
         <Button
           label={t('header.button')}
+          link={injected.rdv}
           icon={'/icons/bell-white.svg'}
           className='bg-primary-600 text-white shadow-md w-fit hover:bg-primary-700'
         />
