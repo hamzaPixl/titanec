@@ -38,7 +38,7 @@ export default function SEO() {
   const replaceTemplate = (template) => template.replace('{name}', dynamicName || '')
 
   const image = sitemapInfo.image || pageInfo?.image || '/gallery3.png'
-  const metaKeywords = t(sitemapInfo.keywords).split(', ')
+  const metaKeywords = sitemapInfo.keywords ? t(sitemapInfo.keywords).split(', ') : []
   const meta = [{ name: 'keywords', content: metaKeywords.join(', ') }]
 
   const title =
