@@ -38,13 +38,13 @@ export default function ServiceDetail() {
               className='rounded-3xl'
             />
             {service.title && <h1 className='text-xl md:text-4xl font-bold'>{t(service.title)}</h1>}
-            {service.description && <p className='font-normal'>{t(service.description)}</p>}
+            {service.description && <div className='font-normal'>{t(service.description)}</div>}
           </div>
 
           {service?.parts?.map((part) => (
             <div className='flex flex-col gap-5 justify-start text-light-900' key={part.title}>
               <h1 className='text-xl md:text-4xl font-bold'>{t(part.title)}</h1>
-              <p className='font-normal'>{t(part.description)}</p>
+              <div className='font-normal'>{t(part.description)}</div>
             </div>
           ))}
 

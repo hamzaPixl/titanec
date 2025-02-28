@@ -36,7 +36,7 @@ export default function DoctorDetail() {
             />
             <div className='flex flex-col gap-2'>
               <h1 className='text-xl md:text-4xl font-bold'>{doctor.title}</h1>
-              <p className='font-semibold'>{doctor.role}</p>
+              <div className='font-semibold'>{doctor.role}</div>
               {doctor?.socials && (
                 <div className='flex flex-row gap-2 items-center'>
                   {doctor?.socials.map((social) => (
@@ -123,7 +123,7 @@ export default function DoctorDetail() {
                       alt={`Arrow icon`}
                       className='bg-primary-600 rounded-full p-1'
                     />
-                    <p className='hover:text-primary-600 font-semibold'>{t(service.name)}</p>
+                    <div className='hover:text-primary-600 font-semibold'>{t(service.name)}</div>
                   </Link>
                 ))}
               </div>
@@ -135,7 +135,7 @@ export default function DoctorDetail() {
             <h1 className='text-xl md:text-4xl font-bold'>{t('doctor.about')}</h1>
             <div className='font-normal flex flex-col justify-start gap-2 max-w-3xl'>
               {doctor.about?.split('\n\n').map((paragraph, i) => (
-                <p key={`p${i}`}>{paragraph}</p>
+                <div key={`p${i}`}>{paragraph}</div>
               ))}
             </div>
           </div>

@@ -35,7 +35,7 @@ export default function CardDoctor({
             alt='Doctor icon'
             className='bg-primary-600 rounded-full p-1 group-hover:bg-light-900 transform ease-in duration-300'
           />
-          <p>{role}</p>
+          <div>{role}</div>
         </div>
       </div>
     </Link>

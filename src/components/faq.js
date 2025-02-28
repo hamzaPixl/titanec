@@ -31,9 +31,9 @@ export default function Faq() {
           </summary>
           <div className='pt-10 text-base text-white flex flex-col gap-2'>
             {f.answer.split('\n').map((p, i) => (
-              <p key={`faq-${i + 1}`} className='mb-4'>
+              <div key={`faq-${i + 1}`} className='mb-4'>
                 {p}
-              </p>
+              </div>
             ))}
           </div>
         </details>

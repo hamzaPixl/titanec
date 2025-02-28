@@ -14,7 +14,7 @@ export default function CardService({ title, description, className, children, i
     >
       <Image width={50} height={50} alt='Card service' src={image} />
       <h2 className='text-xl font-semibold'>{title}</h2>
-      <p className='text-sm font-normal mb-2'>{description}</p>
+      <div className='text-sm font-normal mb-2'>{description}</div>
       {children}
     </Link>
   )

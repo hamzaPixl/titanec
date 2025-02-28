@@ -16,7 +16,7 @@ export default function Footer() {
           <Link href={'/'} className='w-32'>
             <Image width={200} height={150} src='/logo-footer.svg' alt={`Logo`} />
           </Link>
-          <p className='max-w-xs font-normal'>{injected.description}</p>
+          <div className='max-w-xs font-normal'>{injected.description}</div>
         </div>
 
         <div className='flex flex-col gap-4'>
