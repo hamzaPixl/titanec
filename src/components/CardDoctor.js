@@ -6,7 +6,7 @@ export default function CardDoctor({
   title,
   role,
   className,
-  image,
+  image = '/doctor.png',
   serviceIcon = '/icons/general-white.svg',
   link = '/doctors',
 }) {

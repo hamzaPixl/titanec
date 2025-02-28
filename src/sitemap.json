@@ -1,0 +1,50 @@
+{
+  "home": {
+    "title": "home.meta.title",
+    "description": "home.meta.description",
+    "keywords": "home.meta.keywords",
+    "image": "/images/center.jpeg"
+  },
+  "doctors": {
+    "title": "doctors.meta.title",
+    "description": "doctors.meta.description",
+    "keywords": "doctors.meta.keywords",
+    "image": "/images/center.jpeg"
+  },
+  "services": {
+    "title": "services.meta.title",
+    "description": "services.meta.description",
+    "keywords": "services.meta.keywords",
+    "image": "/images/center.jpeg"
+  },
+  "404": {
+    "title": "notfound.meta.title",
+    "description": "notfound.meta.description",
+    "keywords": "notfound.meta.keywords",
+    "image": "/images/wp.png"
+  },
+  "500": {
+    "title": "servererror.meta.title",
+    "description": "servererror.meta.description",
+    "keywords": "servererror.meta.keywords",
+    "image": "/images/wp.png"
+  },
+  "contact": {
+    "title": "contact.meta.title",
+    "description": "contact.meta.description",
+    "keywords": "contact.meta.keywords",
+    "image": "/images/center.jpeg"
+  },
+  "doctors/:id": {
+    "title": "doctorprofile.meta.title",
+    "description": "doctorprofile.meta.description",
+    "keywords": "doctorprofile.meta.keywords",
+    "image": "/images/center.jpeg"
+  },
+  "services/:id": {
+    "title": "servicedetails.meta.title",
+    "description": "servicedetails.meta.description",
+    "keywords": "servicedetails.meta.keywords",
+    "image": "/images/center.jpeg"
+  }
+}

@@ -3,6 +3,9 @@ import Head from 'next/head'
 import { useRouter } from 'next/router'
 import manifest from '../../public/manifest.json'
 import injected from '../injected.json'
+import doctors from '../doctors.json'
+import services from '../services.json'
+import sitemap from '../sitemap.json'
 import { useTranslate } from '../hooks/useTranslate'
 
 const defaultMeta = {
@@ -15,18 +18,40 @@ export default function SEO() {
   const router = useRouter()
 
   const pageInfo = injected.pages.find((page) => page.link === router.route)
+  const route = router.route.replace(/^\/|\/$/g, '') || 'home'
+  const sitemapInfo = sitemap[route] || sitemap[route.split('/')[0] + '/:id'] || {}
 
   const themeColor = injected.manifest.themeColor
   const name = injected.manifest.projectShortName
   const author = injected.author.url
   const url = injected.manifest.url
 
-  const image = pageInfo?.image || '/gallery3.png'
-  const meta = [{ name: 'keywords', content: injected.keywords.concat(pageInfo?.meta?.keywords) }]
-  const title = pageInfo?.meta?.title ? t(pageInfo?.meta?.title) : injected.title
-  const description = pageInfo?.meta?.description
-    ? t(pageInfo?.meta?.description)
-    : injected.description
+  const ressource =
+    doctors.find((doctor) => doctor.id === router.query.slug) ||
+    services.find((service) => service.id === router.query.slug)
+  let dynamicName = ''
+  if (ressource?.title) {
+    dynamicName = ressource.title
+  }
+
+  if (ressource?.title) {
+    dynamicName = t(ressource.title)
+  }
+
+  const replaceTemplate = (template) => template.replace('{name}', dynamicName || '')
+
+  const image = sitemapInfo.image || pageInfo?.image || '/gallery3.png'
+  const metaKeywords = t(sitemapInfo.keywords).split(', ')
+  const meta = [{ name: 'keywords', content: metaKeywords.join(', ') }]
+
+  const title =
+    sitemapInfo && sitemapInfo.title ? t(replaceTemplate(t(sitemapInfo.title))) : injected.title
+
+  const description =
+    sitemapInfo && sitemapInfo.description
+      ? t(replaceTemplate(t(sitemapInfo.description)))
+      : injected.description
+
   const metaData = [
     {
       name: 'google-site-verification',

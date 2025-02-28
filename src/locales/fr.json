@@ -71,29 +71,9 @@
   "doctors.title": "Notre équipe",
   "doctors.description": "Des professionnels de santé prêts à vous accompagner dans votre parcours de soins.",
 
-  "center.meta.title": "Novamed | Centre médical",
-  "center.meta.description": "Novamed, Centre médical",
-  "center.meta.keywords": ["medecin", "houba", "novamed", "malade", "centre"],
-
   "center.hero.title": "Centre médical",
   "center.hero.description": "Litum ipsum dolor sit amet consectetur commodo aliquam aug duis aliqu et ipsum donec tempus ac interdum enim.",
   "center.mapLink": "Voir sur la carte",
-
-  "about.meta.title": "Novamed | À propos de nous",
-  "about.meta.description": "Novamed, À propos de nous",
-  "about.meta.keywords": ["medecin", "houba", "novamed", "malade", "centre"],
-
-  "contact.meta.title": "Novamed | Contactez-nous",
-  "contact.meta.description": "Novamed, Contactez-nous",
-  "contact.meta.keywords": ["medecin", "houba", "novamed", "malade", "centre"],
-
-  "doctors.meta.title": "Novamed | Notre équipe",
-  "doctors.meta.description": "Novamed, Notre équipe",
-  "doctors.meta.keywords": ["medecin", "houba", "novamed", "malade", "centre"],
-
-  "services.meta.title": "Novamed | Nos services",
-  "services.meta.description": "Novamed, Nos services",
-  "services.meta.keywords": ["medecin", "houba", "novamed", "malade", "centre"],
 
   "home.comingSoon.title": "Bientôt ",
   "home.comingSoon.span": "disponible",
@@ -109,10 +89,6 @@
   "maintenance.title": "Maintenance",
   "maintenance.description": "Le site est actuellement en maintenance. Nous serons de retour bientôt.",
   "maintenance.back": "Retourner à l'accueil",
-
-  "home.meta.title": "Novamed | Centre medical",
-  "home.meta.description": "Novamed centre medical",
-  "home.meta.keywords": ["medecin", "houba", "novamed", "malade", "centre"],
 
   "footer.politic.1": "Politique de confidentialité",
   "footer.politic.2": "Mentions légales",
@@ -176,5 +152,45 @@
   "contact.form.message": "Message",
   "contact.form.send": "Envoyer",
   "contact.form.success": "Votre message a été envoyé avec succès.",
-  "contact.form.error": "Une erreur s'est produite lors de l'envoi de votre message. Veuillez réessayer plus tard."
+  "contact.form.error": "Une erreur s'est produite lors de l'envoi de votre message. Veuillez réessayer plus tard.",
+
+  "home.meta.title": "Novamed | Accueil",
+  "home.meta.description": "Bienvenue sur notre page d'accueil",
+  "home.meta.keywords": "centre, médical, novamed, malade",
+
+  "notfound.meta.title": "Novamed | Page Non Trouvée",
+  "notfound.meta.description": "Désolé, la page que vous recherchez n'existe pas",
+  "notfound.meta.keywords": "404, non trouvé, erreur",
+
+  "servererror.meta.title": "Novamed | Erreur Serveur",
+  "servererror.meta.description": "Désolé, quelque chose s'est mal passé de notre côté",
+  "servererror.meta.keywords": "500, erreur serveur, erreur",
+
+  "doctorprofile.meta.title": "Novamed | Profil du Médecin - {name}",
+  "doctorprofile.meta.description": "En savoir plus sur {name}",
+  "doctorprofile.meta.keywords": "médecin, profil, novamed",
+
+  "center.meta.title": "Novamed | Centre médical",
+  "center.meta.description": "Novamed, Centre médical",
+  "center.meta.keywords": "medecin, houba, novamed, malade, centre",
+
+  "about.meta.title": "Novamed | À propos de nous",
+  "about.meta.description": "Novamed, À propos de nous",
+  "about.meta.keywords": "medecin, houba, novamed, malade, centre",
+
+  "contact.meta.title": "Novamed | Contactez-nous",
+  "contact.meta.description": "Novamed, Contactez-nous",
+  "contact.meta.keywords": "medecin, houba, novamed, malade, centre",
+
+  "doctors.meta.title": "Novamed | Notre équipe",
+  "doctors.meta.description": "Novamed, Notre équipe",
+  "doctors.meta.keywords": "medecin, houba, novamed, malade, centre",
+
+  "services.meta.title": "Novamed | Nos services",
+  "services.meta.description": "Novamed, Nos services",
+  "services.meta.keywords": "medecin, houba, novamed, malade, centre",
+
+  "servicedetails.meta.title": "Novamed | Détails du Service - {name}",
+  "servicedetails.meta.description": "Informations détaillées sur notre service {name}",
+  "servicedetails.meta.keywords": "service, détails, novamed"
 }
