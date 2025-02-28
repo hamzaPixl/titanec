@@ -38,7 +38,7 @@ export default function Hero({ title, description, className, image = 'hero-foot
         icon={'/icons/bell-white.svg'}
         className='bg-primary-600 text-white shadow-md w-fit hover:bg-primary-700'
       />
-      <p className='text-2xl font-normal max-w-xl'>{description}</p>
+      <div className='text-2xl font-normal max-w-xl'>{description}</div>
     </div>
   )
 }
