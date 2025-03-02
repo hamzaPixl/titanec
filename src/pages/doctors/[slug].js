@@ -121,7 +121,7 @@ export default function DoctorDetail() {
                       height={45}
                       src={service.icon}
                       alt={`Arrow icon`}
-                      className='bg-primary-600 rounded-full p-1'
+                      className='bg-primary-600 rounded-md p-1'
                     />
                     <div className='hover:text-primary-600 font-semibold'>{t(service.name)}</div>
                   </Link>
@@ -161,6 +161,7 @@ export default function DoctorDetail() {
               image={doctor.image}
               title={doctor.title}
               socials={doctor.socials}
+              serviceIcon={doctor.services[0].icon}
             />
           ))}
         </div>
