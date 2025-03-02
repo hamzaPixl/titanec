@@ -5,7 +5,7 @@
     "title": "services.general.title",
     "description": "services.general.description",
     "image": "/images/doctor.png",
-    "icon": "/icons/heart-white.svg",
+    "icon": "/icons/general-white.svg",
     "link": "/services/services.general"
   },
   {

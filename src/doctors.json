@@ -14,7 +14,7 @@
         "id": "services.general",
         "name": "services.general.title",
         "link": "/services/services.general",
-        "icon": "/icons/heart-white.svg"
+        "icon": "/icons/general-white.svg"
       }
     ]
   },
@@ -64,7 +64,7 @@
     "inami": "10263885790",
     "rdv": "https://rosa.be/fr/hp/mohammad-cherif/",
     "email": "accueil@novamed.be",
-    "about": "Diplômé spécialiste en rhumatologie à l'ULB (2024, grande distinction), résident en rhumatologie au CHU Erasme (2024) et membre de la Société Royale Belge de Rhumatologie, mon tropisme est celui de l'immune-rhumatologie dont le diagnostic et la prise en charge maladies auto-immunes systémiques complexes (Lupus érythémateux systémique, sclérodermie systémique, maladie de Siögren, myopathie inflammatoire, sarcoïdose, maladie de Behçet, polyarthrite rhumatoïde, maladies auto-inflammatoires monogéniques, ...).\n\nJ'ai à cet effet réaliser ma formation en centres universitaires dont à l'hôpital La Pitié\n\nSalpêtrière (Paris, France), référence internationale en la matière.\n\nEn outre, j'ai réalisé durant ma spécialisation plusieurs travaux de recherche scientifiques et formations inter-universitaires dans ces thématiques dont la formation interuniversitaire en études approfondies en polyarthrites et maladies systémiques\n\n(CHU Montpellier 2020), en échographie muscule-squelettique (CHU Liège et UZ Ghent,\n\n2022), la certification EULAR Online Course traitant des maladies rhumatismales (16° édition, 2022-2023), la certification EULAR Online Course traitant du lupus érythémateux systémique (6° édition, 2024-2025).\n\nMa formation préalable en médecine interne permet une prise en charge globale et la gestion de ces maladies souvent chroniques.",
+    "about": "Diplômé spécialiste en rhumatologie à l'ULB (2024, grande distinction), résident en rhumatologie au CHU Erasme (2024) et membre de la Société Royale Belge de Rhumatologie, mon tropisme est celui de l'immuno-rhumatologie, dont le diagnostic et la prise en charge des maladies auto-immunes systémiques complexes (lupus érythémateux systémique, sclérodermie systémique, maladie de Sjögren, myopathie inflammatoire, sarcoïdose, maladie de Behçet, polyarthrite rhumatoïde, maladies auto-inflammatoires monogéniques, ...).\n\nJ'ai à cet effet réalisé ma formation dans des centres universitaires, dont à l'hôpital La Pitié Salpêtrière (Paris, France), référence internationale en la matière.\n\nEn outre, j'ai réalisé durant ma spécialisation plusieurs travaux de recherche scientifique et formations interuniversitaires dans ces thématiques, dont la formation interuniversitaire en études approfondies en polyarthrites et maladies systémiques (CHU Montpellier 2020), en échographie musculo-squelettique (CHU Liège et UZ Ghent, 2022), la certification EULAR Online Course traitant des maladies rhumatismales (16ᵉ édition, 2022-2023), ainsi que la certification EULAR Online Course traitant du lupus érythémateux systémique (6ᵉ édition, 2024-2025).\n\nMa formation préalable en médecine interne permet une prise en charge globale et la gestion de ces maladies souvent chroniques.",
     "services": [
       {
         "id": "services.rhumato",
