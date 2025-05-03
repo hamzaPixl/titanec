@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://titanec.com
+Host: https://titanec.be
 
 # Sitemaps
-Sitemap: https://titanec.com/sitemap.xml
+Sitemap: https://titanec.be/sitemap.xml
