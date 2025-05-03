@@ -1,22 +1,22 @@
-# novamed
+# titanec
 
-[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/hamzaPixl/novamed/blob/master/LICENSE)
-[![GitHub last commit](https://img.shields.io/github/last-commit/google/skia.svg)](https://github.com/hamzaPixl/novamed/commits/master)
+[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/hamzaPixl/titanec/blob/master/LICENSE)
+[![GitHub last commit](https://img.shields.io/github/last-commit/google/skia.svg)](https://github.com/hamzaPixl/titanec/commits/master)
 
 <br />
 <p align="center">
-  <h3 align="center">novamed</h3>
+  <h3 align="center">titanec</h3>
 
   <p align="center">
     <br />
-    <a href="https://github.com/hamzaPixl/novamed/blob/master/README.md"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/hamzaPixl/titanec/blob/master/README.md"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://novamed.be/">View Demo</a>
+    <a href="https://titanec.be/">View Demo</a>
     ·
-    <a href="https://github.com/hamzaPixl/novamed/issues">Report Bug</a>
+    <a href="https://github.com/hamzaPixl/titanec/issues">Report Bug</a>
     ·
-    <a href="https://github.com/hamzaPixl/novamed/issues">Request Feature</a>
+    <a href="https://github.com/hamzaPixl/titanec/issues">Request Feature</a>
   </p>
 </p>
 

@@ -2,7 +2,7 @@
 
 ## 1. Introduction
 
-Cette politique explique comment Novamed utilise les cookies sur son site web.
+Cette politique explique comment Titanec utilise les cookies sur son site web.
 
 ## 2. Qu'est-ce qu'un Cookie ?
 
@@ -25,4 +25,4 @@ Nous pouvons mettre à jour cette politique de cookies de temps en temps. Les mo
 
 ## 6. Contact
 
-Pour toute question concernant cette politique de cookies, veuillez nous contacter à accueil@novamed.be.
+Pour toute question concernant cette politique de cookies, veuillez nous contacter à accueil@titanec.be.

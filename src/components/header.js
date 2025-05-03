@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
 import Link from 'next/link'
 import Button from './button'
 import merge from '../lib/merge'
@@ -7,10 +6,18 @@ import Burger from './burger'
 import injected from '../injected.json'
 import { useTranslate } from '../hooks/useTranslate'
 import { useRouter } from 'next/router'
+import { useLocale } from '../hooks/useLocale'
 
 export default function Header({ navbarOpen, setNavbarOpen }) {
   const { t } = useTranslate()
   const { push } = useRouter()
+  const { switchLocale } = useLocale()
+
+  const handleLocaleChange = (e) => {
+    e.preventDefault()
+    switchLocale(e.target.value)
+  }
+
   return (
     <nav
       className={merge(
@@ -19,8 +26,8 @@ export default function Header({ navbarOpen, setNavbarOpen }) {
       )}
     >
       <div className='hidden md:flex flex-row justify-center gap-6'>
-        <Link href={'/'} className='w-44 mb-2'>
-          <Image width={200} height={150} src='/logo.svg' alt={`Logo`} />
+        <Link href={'/'} className='text-4xl mb-2'>
+          Titanec
         </Link>
         <div className='flex flex-row items-center'>
           {injected.pages.map((item, index) => (
@@ -42,8 +49,8 @@ export default function Header({ navbarOpen, setNavbarOpen }) {
         </div>
       </div>
       <div className='flex flex-row items-center justify-between w-full md:hidden'>
-        <Link href={'/'} className='w-36'>
-          <Image width={200} height={150} src='/logo.svg' alt={`Logo`} />
+        <Link href={'/'} className='text-2xl'>
+          Titanec
         </Link>
         <button
           href={'/'}
@@ -56,12 +63,25 @@ export default function Header({ navbarOpen, setNavbarOpen }) {
           <Burger navbarOpen={navbarOpen} />
         </button>
       </div>
-      <Button
-        label={t('header.button')}
-        link={injected.rdv}
-        className='bg-primary-600 text-white shadow-md w-fit hover:bg-primary-700 hidden md:flex'
-        icon={'/icons/bell-white.svg'}
-      />
+      <div className='hidden md:flex flex-row items-center justify-between gap-2'>
+        <select
+          className='bg-light-200 text-light-900 rounded-full p-3 font-semibold'
+          onChange={handleLocaleChange}
+          defaultValue={injected.defaultLocale}
+        >
+          {injected.locales.map((locale, index) => (
+            <option key={index} value={locale}>
+              {t(locale)}
+            </option>
+          ))}
+        </select>
+        <Button
+          label={t('header.button')}
+          link={injected.rdv}
+          className='bg-primary-600 text-white shadow-md w-fit hover:bg-primary-700 hidden md:flex'
+          icon={'/icons/bell-white.svg'}
+        />
+      </div>
     </nav>
   )
 }

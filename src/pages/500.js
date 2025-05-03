@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import { useTranslate } from '../hooks/useTranslate'
-import Image from 'next/image'
 
 export default function Maintenance() {
   const { t } = useTranslate()
@@ -28,8 +27,8 @@ export default function Maintenance() {
           alt='500 Server Error'
         />
       </div>
-      <Link href={'/'} className='w-32'>
-        <Image width={200} height={150} src='/logo-footer.svg' alt={`Logo`} />
+      <Link href={'/'} className='text-4xl'>
+        Titanec
       </Link>
     </section>
   )

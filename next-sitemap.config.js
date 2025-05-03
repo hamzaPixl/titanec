@@ -1,4 +1,4 @@
 module.exports = {
-  siteUrl: 'https://novamed.be',
+  siteUrl: 'https://titanec.be',
   generateRobotsTxt: true,
 }

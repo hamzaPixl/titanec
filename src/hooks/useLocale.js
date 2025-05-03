@@ -1,9 +1,11 @@
 import { useRouter } from 'next/router'
 import { useCallback, useMemo } from 'react'
 import fr from '../locales/fr.json'
+import nl from '../locales/nl.json'
 
 const messages = {
   fr,
+  nl,
 }
 
 import injected from '../injected.json'

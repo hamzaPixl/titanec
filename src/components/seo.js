@@ -3,7 +3,6 @@ import Head from 'next/head'
 import { useRouter } from 'next/router'
 import manifest from '../../public/manifest.json'
 import injected from '../injected.json'
-import doctors from '../doctors.json'
 import services from '../services.json'
 import sitemap from '../sitemap.json'
 import { useTranslate } from '../hooks/useTranslate'
@@ -28,9 +27,7 @@ export default function SEO() {
 
   let dynamicName = ''
 
-  if (route.includes('doctors')) {
-    dynamicName = doctors.find((doctor) => doctor.id === router.query.slug)?.title
-  } else if (route.includes('services')) {
+  if (route.includes('services')) {
     const service = services.find((service) => service.id === router.query.slug)?.title
     dynamicName = t(service)
   }

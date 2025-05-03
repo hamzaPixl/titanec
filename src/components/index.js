@@ -1,5 +1,4 @@
 export * from './Card'
-export * from './CardDoctor'
 export * from './CardService'
 export * from './CardWhyUs'
 export * from './button'

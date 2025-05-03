@@ -2,7 +2,6 @@ import React from 'react'
 import Layout from '../../components/layout'
 import Newsletter from '../../components/newsletter'
 import { getAllMarkdown } from '../../lib/markdown'
-import Image from 'next/image'
 import Link from 'next/link'
 import { serialize } from 'next-mdx-remote/serialize'
 import { MDXRemote } from 'next-mdx-remote'
@@ -14,8 +13,8 @@ export default function PolicyDetail({ content }) {
         <div className='text-center text-light-900 max-w-3xl flex flex-col gap-5'>
           <MDXRemote {...content} />
         </div>
-        <Link href={'/'} className='w-32'>
-          <Image width={200} height={150} src='/logo.svg' alt={`Logo`} />
+        <Link href={'/'} className='text-4xl'>
+          Titanec
         </Link>
       </div>
       <Newsletter />

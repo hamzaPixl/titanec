@@ -4,35 +4,20 @@
     "id": "services.general",
     "title": "services.general.title",
     "description": "services.general.description",
-    "image": "/images/doctor.png",
-    "icon": "/icons/general-white.svg",
     "link": "/services/services.general"
   },
   {
-    "name": "services.kine",
-    "id": "services.kine",
-    "title": "services.kine.title",
-    "description": "services.kine.description",
-    "image": "/images/doctor.png",
-    "icon": "/icons/kine-white.svg",
-    "link": "/services/services.kine"
+    "name": "services.plumbing",
+    "id": "services.plumbing",
+    "title": "services.plumbing.title",
+    "description": "services.plumbing.description",
+    "link": "/services/services.plumbing"
   },
   {
-    "name": "services.rhumato",
-    "id": "services.rhumato",
-    "title": "services.rhumato.title",
-    "description": "services.rhumato.description",
-    "image": "/images/doctor.png",
-    "icon": "/icons/general-white.svg",
-    "link": "/services/services.rhumato"
-  },
-  {
-    "name": "services.psy",
-    "id": "services.psy",
-    "title": "services.psy.title",
-    "description": "services.psy.description",
-    "image": "/images/doctor.png",
-    "icon": "/icons/psy-white.svg",
-    "link": "/services/services.psy"
+    "name": "services.electric",
+    "id": "services.electric",
+    "title": "services.electric.title",
+    "description": "services.electric.description",
+    "link": "/services/services.electric"
   }
 ]

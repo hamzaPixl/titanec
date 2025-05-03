@@ -4,7 +4,7 @@ import injected from '../injected.json'
 import Button from './button'
 import { useEffect, useRef } from 'react'
 
-export default function Hero({ title, description, className, image = 'hero-footer' }) {
+export default function Hero({ title, description, className }) {
   const { t } = useTranslate()
   const heroRef = useRef(null)
 
@@ -26,9 +26,8 @@ export default function Hero({ title, description, className, image = 'hero-foot
     <div
       ref={heroRef}
       className={merge(
-        'shadow-lg text-white rounded-3xl flex flex-col gap-5 justify-center items-center text-center py-24 px-10 w-full',
+        'text-black rounded-3xl flex flex-col gap-5 justify-center items-center text-center py-24 px-10 w-full',
         className,
-        image ? `bg-${image} bg-cover bg-center` : '',
       )}
     >
       <h2 className='text-4xl font-semibold'>{title}</h2>

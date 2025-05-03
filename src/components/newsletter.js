@@ -29,7 +29,7 @@ export default function Newsletter() {
       })
   }
   return (
-    <div className='rounded-3xl text-white bg-light-900 py-14 px-8 flex flex-col gap-5 items-center text-center justify-between bg-hero-newsletter bg-center bg-cover'>
+    <div className='rounded-3xl text-white bg-primary-600 py-14 px-8 flex flex-col gap-5 items-center text-center justify-between'>
       <div className='text-2xl font-semibold'>{t('newsletter.title')}</div>
       <div className='text-sm font-normal max-w-xl'>{t('newsletter.description')}</div>
       <NewsletterForm formSuccess={formSuccess} handleSubmit={handleSubmit} formError={formError} />

@@ -1,89 +1,38 @@
 {
-  "keywords": ["medecin", "houba", "novamed", "malade", "centre"],
-  "title": "Novamed | Centre Medical",
-  "description": "Novamed Centre Medical",
+  "keywords": [
+    "titanec",
+    "entreprise",
+    "construction",
+    "électricité",
+    "plomberie",
+    "bruxelles",
+    "belgique"
+  ],
+  "title": "Titanec | Entreprise de construction",
+  "description": "Titanec Entreprise de construction",
   "manifest": {
-    "projectShortName": "Novamed Centre Medical",
-    "themeColor": "#ed213e",
-    "url": "https://www.novamed.be/",
-    "description": "Novamed Centre Medical",
+    "projectShortName": "Titanec Entreprise de construction",
+    "themeColor": "#2421ed",
+    "url": "https://www.titanec.be/",
+    "description": "Titanec Entreprise de construction",
     "display": "standalone",
     "orientation": "portrait",
-    "backgroundColor": "#ed213e"
+    "backgroundColor": "#2421ed"
   },
-  "gtag": "G-DZQXVKM04S",
-  "pages": [
-    {
-      "title": "link.home",
-      "link": "/",
-      "meta": {
-        "title": "home.meta.title",
-        "description": "home.meta.description",
-        "keywords": ["centre", "medical", "novamed", "malade"]
-      }
-    },
-    {
-      "title": "link.services",
-      "link": "/services",
-      "meta": {
-        "title": "services.meta.title",
-        "description": "services.meta.description",
-        "keywords": ["centre", "medical", "novamed", "malade"]
-      }
-    },
-    {
-      "title": "link.doctors",
-      "link": "/doctors",
-      "meta": {
-        "title": "doctors.meta.title",
-        "description": "doctors.meta.description",
-        "keywords": ["centre", "medical", "novamed", "malade"]
-      }
-    },
-    {
-      "title": "link.contact",
-      "link": "/contact",
-      "meta": {
-        "title": "contact.meta.title",
-        "description": "contact.meta.description",
-        "keywords": ["centre", "medical", "novamed", "malade"]
-      }
-    }
-  ],
-  "socials": [
-    {
-      "name": "Facebook",
-      "url": "https://www.facebook.com/Novamed-1010684768-104073221372",
-      "icon": "facebook"
-    },
-    {
-      "name": "Instagram",
-      "url": "https://www.instagram.com/novamed.be/",
-      "icon": "instagram"
-    },
-    {
-      "name": "Twitter",
-      "url": "https://twitter.com/novamedbe",
-      "icon": "twitter"
-    },
-    {
-      "name": "Linkedin",
-      "url": "https://www.linkedin.com/company/novamed-be/",
-      "icon": "linkedin"
-    }
-  ],
+  "gtag": "G-XXXXXX",
+  "pages": [],
+  "socials": [],
   "sla": [],
   "address": {
     "url": "https://maps.app.goo.gl/Syji96gp16iBVE3DA",
     "address": "Avenue Houba de strooper 101, 1020 Laeken, Bruxelles"
   },
-  "companyName": "Novamed",
+  "companyName": "Titanec",
   "tel": "+32 2 449 02 06",
-  "email": "accueil@novamed.be",
-  "web": "https://www.novamed.be",
-  "tva": "BE1010684768",
-  "rdv": "https://rosa.be/fr/org/org-chebli/",
-  "locales": ["fr"],
+  "email": "accueil@titanec.be",
+  "web": "https://www.titanec.be",
+  "tva": "BE0712733234",
+  "locales": ["fr", "nl"],
   "defaultLocale": "fr",
   "author": {
     "name": "Pixl",

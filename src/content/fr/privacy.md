@@ -2,7 +2,7 @@
 
 ## 1. Introduction
 
-Chez Novamed, nous accordons une grande importance à la protection de vos données personnelles. Cette politique décrit comment nous collectons, utilisons et protégeons vos informations.
+Chez Titanec, nous accordons une grande importance à la protection de vos données personnelles. Cette politique décrit comment nous collectons, utilisons et protégeons vos informations.
 
 ## 2. Collecte des Données
 
@@ -22,7 +22,7 @@ Nous mettons en œuvre des mesures de sécurité pour protéger vos informations
 
 ## 6. Vos Droits
 
-Vous avez le droit d'accéder, de rectifier ou de supprimer vos données personnelles. Pour exercer ces droits, veuillez nous contacter à accueil@novamed.be.
+Vous avez le droit d'accéder, de rectifier ou de supprimer vos données personnelles. Pour exercer ces droits, veuillez nous contacter à accueil@titanec.be.
 
 ## 7. Modifications de la Politique
 
@@ -30,4 +30,4 @@ Nous pouvons mettre à jour cette politique de confidentialité de temps en temp
 
 ## 8. Contact
 
-Pour toute question concernant cette politique, veuillez nous contacter à accueil@novamed.be.
+Pour toute question concernant cette politique, veuillez nous contacter à accueil@titanec.be.
