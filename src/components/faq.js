@@ -6,7 +6,7 @@ export default function Faq() {
   const { t } = useTranslate()
   return (
     <div className='text-light-900 w-full flex flex-col gap-10 justify-between items-left text-left'>
-      <div className='text-3xl xl:text-4xl font-bold'>{t('faq.title')}</div>
+      <div className='text-3xl xl:text-4xl font-bold text-primary-500'>{t('faq.title')}</div>
       <div className='max-w-xl text-base'>{t('faq.description')}</div>
 
       {faqA.map((f, i) => (

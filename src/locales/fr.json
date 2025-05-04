@@ -1,12 +1,12 @@
 {
   "link.home": "Accueil",
-  "link.about": "À propos de nous",
-  "link.services": "Nos services",
+  "link.about": "À propos",
+  "link.services": "Services",
   "link.doctors": "Notre équipe",
   "link.contact": "Contact",
   "link.center": "Notre centre",
 
-  "header.button": "Prendre Rendez-Vous",
+  "header.button": "Demander un devis",
 
   "footer.description": "Litum ipsum dolor sit amet consectetur commodo aliquam aug duis aliqu et ipsum donec tempus ac interdum enim.",
   "footer.pages": "Nos rubriques",
@@ -16,10 +16,11 @@
   "footer.cookies": "Cookies",
   "footer.slogan": "Des professionnels pour vos grands projets.",
   "footer.button": "Prendre Rendez-Vous",
+  "footer.informations": "Informations",
   "footer.greetings.dev": "Made with love by",
   "footer.greetings.designer": "And Designed by",
-  "about.title": "À propos de nous",
-  "about.description": "Litum ipsum dolor sit amet consectetur commodo aliquam aug duis aliqu et ipsum donec tempus ac interdum enim.",
+  "about.title": "À Propos",
+  "about.description": "Titanec est une entreprise belge spécialisée dans l'électricité-générale. Fiabilité, sécurité et innovation sont nos priorités.",
   "about.button": "Prendre Rendez-Vous",
 
   "home.about.span": "Notre mission",
@@ -29,6 +30,8 @@
 
   "home.contact.phone": "Par téléphone",
   "home.contact.email": "Par email",
+  "home.contact.location": "À notre adresse",
+  "home.contact.locationLink": "Suivrez-nous sur Google Maps",
 
   "home.contact.title": "Contactez-nous",
   "home.contact.description": "Notre équipe est à votre écoute pour répondre à toutes vos questions.",
@@ -37,8 +40,10 @@
   "home.comingSoon.span": "disponible",
   "home.comingSoon.description": "Notre site est en cours de construction.",
 
-  "home.title": "Titanec",
-  "home.description": "Votre expert on construction et installations electrique professionnel.",
+  "home.title": "Bienvenue chez Titanec",
+  "home.subtitle": "Notre énergie au service de vos projets",
+  "home.description": "Spécialistes en électricité générale, domotique et installations industrielles en Belgique.",
+  "home.cta": "Une panne ? Une installation ? Faites confiance à Titanec",
 
   "notfound.title": "Page non trouvée",
   "notfound.message": "La page que vous recherchez n'existe pas.",
@@ -55,16 +60,31 @@
   "faq.title": "Foire aux questions",
   "faq.description": "Vous trouverez ici les réponses aux questions les plus fréquentes. Pour toute autre question, n'hésitez pas à nous contacter.",
 
-  "services.general.title": "installation électrique",
-  "services.general.description": "Litum ipsum dolor sit amet consectetur commodo aliquam aug duis aliqu et ipsum donec tempus ac interdum enim.",
+  "services.domotique.title": "Domotique (maison intelligente)",
+  "services.domotique.description": "Solutions connectées pour le confort et la sécurité de votre habitat.",
 
-  "services.electric.title": "Électricité",
-  "services.electric.description": "Litum ipsum dolor sit amet consectetur commodo aliquam aug duis aliqu et ipsum donec tempus ac interdum enim.",
+  "services.electic.residential.title": "Installation électrique résidentielle",
+  "services.electic.residential.description": "Installation et rénovation électrique pour maisons et appartements.",
 
-  "services.plumbing.title": "Plomberie",
-  "services.plumbing.description": "Litum ipsum dolor sit amet consectetur commodo aliquam aug duis aliqu et ipsum donec tempus ac interdum enim.",
+  "services.electic.industrial.title": "Installation industrielle",
+  "services.electic.industrial.description": "Électricité pour bâtiments industriels et professionnels.",
 
-  "contact.title": "Contactez-nous",
+  "services.electic.compliance.title": "Mise en conformité",
+  "services.electic.compliance.description": "Mise aux normes de vos installations électriques selon la législation belge.",
+
+  "services.electic.cabling.title": "Câblage réseau et informatique",
+  "services.electic.cabling.description": "Câblage structuré pour réseaux informatiques et télécoms.",
+
+  "services.electic.led.title": "Eclairage LED",
+  "services.electic.led.description": "Installation d'éclairage LED économique et performant.",
+
+  "services.electic.troubleshooting.title": "Dépannage rapide",
+  "services.electic.troubleshooting.description": "Intervention rapide en cas de panne ou d'urgence électrique.",
+
+  "services.electic.maintenance.title": "Maintenance préventive et curative",
+  "services.electic.maintenance.description": "Entretien régulier de vos installations électriques pour garantir leur bon fonctionnement.",
+
+  "contact.title": "Contactez-Nous",
   "contact.description": "Notre équipe est à votre écoute pour répondre à toutes vos questions et vous accompagner dans votre demande de rendez-vous.",
 
   "services.title": "Nos Services",
@@ -81,7 +101,7 @@
   "policy.privacy.title": "Politique de confidentialité",
 
   "newsletter.title": "Inscrivez-vous à notre newsletter",
-  "newsletter.description": "pour recevoir des informations sur nos services et les dernières actualités de Titanec.",
+  "newsletter.description": "Pour recevoir des informations sur nos services et les dernières actualités de Titanec.",
   "newsletter.email": "Votre email",
   "newsletter.submit": "S'inscrire",
   "newsletter.form.success": "Merci pour votre inscription à notre newsletter.",
@@ -99,8 +119,8 @@
   "contact.form.error": "Une erreur s'est produite lors de l'envoi de votre message. Veuillez réessayer plus tard.",
 
   "home.meta.title": "Titanec | Accueil",
-  "home.meta.description": "Bienvenue sur notre page d'accueil",
-  "home.meta.keywords": "electric, titanec, plomberie",
+  "home.meta.description": "Bienvenue chez Titanec, spécialistes en électricité générale, domotique et installations industrielles.",
+  "home.meta.keywords": "électricité, domotique, industriel, dépannage, titanec, bruxelles",
 
   "notfound.meta.title": "Titanec | Page Non Trouvée",
   "notfound.meta.description": "Désolé, la page que vous recherchez n'existe pas",

@@ -6,7 +6,7 @@ export default function ContactForm({ formSuccess, handleSubmit, formError }) {
   const router = useRouter()
   const { t } = useTranslate()
   return (
-    <div className='text-white gap-4 flex flex-col justify-between items-left text-base font-normal w-full'>
+    <div className='text-primary-900 gap-4 flex flex-col justify-between items-left text-base font-normal w-full'>
       {formSuccess && (
         <div className='transition-all text-lg bg-green-500 rounded-3xl text-white p-10'>
           {formSuccess.message}
@@ -82,7 +82,7 @@ export default function ContactForm({ formSuccess, handleSubmit, formError }) {
           </div>
           <button
             type='submit'
-            className='bg-white text-primary-900 hover:shadow-lg rounded-3xl flex flex-row gap-2 items-center px-4 py-2 hover:translate-x-1 transition-transform ease-in-out duration-300'
+            className='text-white bg-primary-600 hover:shadow-lg rounded-3xl flex flex-row gap-2 items-center px-4 py-2 hover:translate-x-1 transition-transform ease-in-out duration-300'
           >
             {t('contact.form.submit')}
           </button>

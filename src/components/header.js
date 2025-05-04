@@ -7,6 +7,7 @@ import injected from '../injected.json'
 import { useTranslate } from '../hooks/useTranslate'
 import { useRouter } from 'next/router'
 import { useLocale } from '../hooks/useLocale'
+import Image from 'next/image'
 
 export default function Header({ navbarOpen, setNavbarOpen }) {
   const { t } = useTranslate()
@@ -22,12 +23,18 @@ export default function Header({ navbarOpen, setNavbarOpen }) {
     <nav
       className={merge(
         'z-50 sticky top-0 overflow-auto transition-all duration-300 ease-in-out text-light-900',
-        'p-5 md:p-8 font-bold leading-normal flex flex-row items-center justify-between gap-2 bg-white shadow-lg',
+        'p-5 md:p-5 font-bold leading-normal flex flex-row items-center justify-between gap-2 bg-white shadow-lg',
       )}
     >
       <div className='hidden md:flex flex-row justify-center gap-6'>
         <Link href={'/'} className='text-4xl mb-2'>
-          Titanec
+          <Image
+            loading='lazy'
+            width={200}
+            height={200}
+            src={`/titanec-logo.svg`}
+            alt={`Logo ${injected.name}`}
+          />
         </Link>
         <div className='flex flex-row items-center'>
           {injected.pages.map((item, index) => (
@@ -50,7 +57,13 @@ export default function Header({ navbarOpen, setNavbarOpen }) {
       </div>
       <div className='flex flex-row items-center justify-between w-full md:hidden'>
         <Link href={'/'} className='text-2xl'>
-          Titanec
+          <Image
+            loading='lazy'
+            width={200}
+            height={200}
+            src={`/titanec-logo.svg`}
+            alt={`Logo ${injected.name}`}
+          />
         </Link>
         <button
           href={'/'}
@@ -78,8 +91,7 @@ export default function Header({ navbarOpen, setNavbarOpen }) {
         <Button
           label={t('header.button')}
           link={injected.rdv}
-          className='bg-primary-600 text-white shadow-md w-fit hover:bg-primary-700 hidden md:flex'
-          icon={'/icons/bell-white.svg'}
+          className='bg-secondary-400 hover:text-white text-primary-900 shadow-md hidden md:flex w-fit hover:bg-primary-700'
         />
       </div>
     </nav>

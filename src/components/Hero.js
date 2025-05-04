@@ -26,16 +26,15 @@ export default function Hero({ title, description, className }) {
     <div
       ref={heroRef}
       className={merge(
-        'text-black rounded-3xl flex flex-col gap-5 justify-center items-center text-center py-24 px-10 w-full',
+        'text-black rounded-3xl flex flex-col gap-5 justify-center items-center text-center py-24 px-10 w-full bg-light-200',
         className,
       )}
     >
-      <h2 className='text-4xl font-semibold'>{title}</h2>
+      <h2 className='text-4xl font-semibold text-primary-600'>{title}</h2>
       <Button
         label={t('header.button')}
         link={injected.rdv}
-        icon={'/icons/bell-white.svg'}
-        className='bg-primary-600 text-white shadow-md w-fit hover:bg-primary-700'
+        className='bg-secondary-400 hover:text-white text-primary-900 shadow-md w-fit hover:bg-primary-700'
       />
       <div className='text-2xl font-normal max-w-xl'>{description}</div>
     </div>

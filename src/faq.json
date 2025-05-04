@@ -1,6 +1,22 @@
 [
   {
-    "question": "Comment prendre rendez-vous ?",
-    "answer": "Vous pouvez prendre rendez-vous :\n• En ligne, via le bouton dédié sur notre site web."
+    "question": "Comment demander une intervention ou un devis ?",
+    "answer": "Vous pouvez nous contacter par téléphone, email ou via le formulaire de contact sur notre site. Nous répondons rapidement à toutes les demandes."
+  },
+  {
+    "question": "Quels types de services proposez-vous ?",
+    "answer": "Nous proposons une large gamme de services, y compris l'installation électrique résidentielle et industrielle, la domotique, la mise en conformité, le dépannage et la maintenance."
+  },
+  {
+    "question": "Intervenez-vous dans toute la Belgique ?",
+    "answer": "Oui, nous intervenons dans toute la Belgique. N'hésitez pas à nous contacter pour plus de détails sur notre zone d'intervention."
+  },
+  {
+    "question": "Quels sont vos délais d'intervention ?",
+    "answer": "Nos délais d'intervention varient en fonction de la nature de la demande. Nous faisons de notre mieux pour intervenir le plus rapidement possible."
+  },
+  {
+    "question": "Proposez-vous des contrats d'entretien ?",
+    "answer": "Oui, nous proposons des contrats d'entretien préventif et curatif pour garantir le bon fonctionnement de vos installations électriques."
   }
 ]

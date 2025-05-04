@@ -1,30 +1,26 @@
 {
-  "keywords": [
-    "titanec",
-    "entreprise",
-    "construction",
-    "électricité",
-    "plomberie",
-    "bruxelles",
-    "belgique"
-  ],
-  "title": "Titanec | Entreprise de construction",
-  "description": "Titanec Entreprise de construction",
+  "keywords": ["titanec", "électricité", "domotique", "industriel", "dépannage", "bruxelles"],
+  "title": "Titanec | Accueil",
+  "description": "Titanec est une entreprise spécialisée dans l'électricité générale, la domotique et les installations industrielles.",
   "manifest": {
-    "projectShortName": "Titanec Entreprise de construction",
+    "projectShortName": "Titanec",
     "themeColor": "#2421ed",
     "url": "https://www.titanec.be/",
-    "description": "Titanec Entreprise de construction",
+    "description": "Titanec est une entreprise spécialisée dans l'électricité générale, la domotique et les installations industrielles.",
     "display": "standalone",
     "orientation": "portrait",
     "backgroundColor": "#2421ed"
   },
-  "gtag": "G-XXXXXX",
+  "gtag": "G-BTJKF17TC7",
   "pages": [],
   "socials": [],
   "sla": [],
+  "address": {
+    "url": "https://g.co/kgs/68epzhh",
+    "address": "Avenue de la Basillique 377, B3, 1081 Koekelberg, Bruxelles, Belgique"
+  },
   "companyName": "Titanec",
-  "tel": "+32XXXXXXXX",
+  "tel": "+32485245084",
   "email": "accueil@titanec.be",
   "web": "https://www.titanec.be",
   "tva": "BE0712733234",
@@ -32,10 +28,6 @@
   "defaultLocale": "fr",
   "author": {
     "name": "Pixl",
-    "url": "https://www.pixldev.be"
-  },
-  "designer": {
-    "name": "Napster",
     "url": "https://www.pixldev.be"
   }
 }

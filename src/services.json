@@ -1,23 +1,50 @@
 [
   {
-    "name": "services.general",
-    "id": "services.general",
-    "title": "services.general.title",
-    "description": "services.general.description",
-    "link": "/services/services.general"
+    "name": "services.domotique",
+    "id": "services.domotique",
+    "title": "services.domotique.title",
+    "description": "services.domotique.description"
   },
   {
-    "name": "services.plumbing",
-    "id": "services.plumbing",
-    "title": "services.plumbing.title",
-    "description": "services.plumbing.description",
-    "link": "/services/services.plumbing"
+    "name": "services.electic.residential",
+    "id": "services.electic.residential",
+    "title": "services.electic.residential.title",
+    "description": "services.electic.residential.description"
   },
   {
-    "name": "services.electric",
-    "id": "services.electric",
-    "title": "services.electric.title",
-    "description": "services.electric.description",
-    "link": "/services/services.electric"
+    "name": "services.electic.industrial",
+    "id": "services.electic.industrial",
+    "title": "services.electic.industrial.title",
+    "description": "services.electic.industrial.description"
+  },
+  {
+    "name": "services.electic.compliance",
+    "id": "services.electic.compliance",
+    "title": "services.electic.compliance.title",
+    "description": "services.electic.compliance.description"
+  },
+  {
+    "name": "services.electic.cabling",
+    "id": "services.electic.cabling",
+    "title": "services.electic.cabling.title",
+    "description": "services.electic.cabling.description"
+  },
+  {
+    "name": "services.electic.led",
+    "id": "services.electic.led",
+    "title": "services.electic.led.title",
+    "description": "services.electic.led.description"
+  },
+  {
+    "name": "services.electic.troubleshooting",
+    "id": "services.electic.troubleshooting",
+    "title": "services.electic.troubleshooting.title",
+    "description": "services.electic.troubleshooting.description"
+  },
+  {
+    "name": "services.electic.maintenance",
+    "id": "services.electic.maintenance",
+    "title": "services.electic.maintenance.title",
+    "description": "services.electic.maintenance.description"
   }
 ]

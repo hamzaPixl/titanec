@@ -1,6 +1,5 @@
 import React from 'react'
 import { useRouter } from 'next/router'
-import Image from 'next/image'
 import { useTranslate } from '../../hooks/useTranslate'
 
 export default function NewsletterForm({ formSuccess, handleSubmit, formError }) {
@@ -31,15 +30,9 @@ export default function NewsletterForm({ formSuccess, handleSubmit, formError })
           />
           <button
             type='submit'
-            className='bg-light-900 hover:bg-primary-600 text-white rounded-3xl flex flex-row gap-2 items-center px-4 py-2 hover:translate-x-1 transition-transform ease-in-out duration-300'
+            className='bg-secondary-500 hover:bg-primary-600 text-primary-900 hover:text-white text rounded-3xl flex flex-row gap-2 items-center px-4 py-2 hover:translate-x-1 transition-transform ease-in-out duration-300'
           >
             {t('newsletter.submit')}
-            <Image
-              src='/icons/arrow_forward_white.svg'
-              width={15}
-              height={15}
-              alt='Arrow forward'
-            />
           </button>
         </div>
       </div>
