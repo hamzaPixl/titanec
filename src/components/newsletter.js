@@ -21,18 +21,25 @@ export default function Newsletter() {
     })
       .then(() => {
         setFormSuccess({ message: t('newsletter.form.success') })
-        console.log(t('newsletter.form.success'))
       })
       .catch(() => {
         setFormError({ message: t('newsletter.form.error') })
-        console.log(t('newsletter.form.error'))
       })
   }
+
   return (
-    <div className='rounded-3xl text-white bg-primary-600 py-14 px-8 flex flex-col gap-5 items-center text-center justify-between'>
-      <div className='text-2xl font-semibold'>{t('newsletter.title')}</div>
-      <div className='text-sm font-normal max-w-xl'>{t('newsletter.description')}</div>
-      <NewsletterForm formSuccess={formSuccess} handleSubmit={handleSubmit} formError={formError} />
+    <div className='relative overflow-hidden rounded-2xl bg-gradient-to-r from-secondary-600 to-secondary-500 py-12 px-6 md:px-8'>
+      {/* Background decoration */}
+      <div className='absolute top-0 right-0 w-48 h-48 bg-white/10 rounded-full -translate-y-1/2 translate-x-1/2'></div>
+      <div className='absolute bottom-0 left-0 w-32 h-32 bg-white/5 rounded-full translate-y-1/2 -translate-x-1/2'></div>
+
+      <div className='relative z-10 flex flex-col gap-5 items-center text-center max-w-xl mx-auto'>
+        <h2 className='text-xl md:text-2xl font-bold text-white'>{t('newsletter.title')}</h2>
+        <p className='text-white/90 text-sm'>{t('newsletter.description')}</p>
+        <div className='w-full max-w-md'>
+          <NewsletterForm formSuccess={formSuccess} handleSubmit={handleSubmit} formError={formError} />
+        </div>
+      </div>
     </div>
   )
 }

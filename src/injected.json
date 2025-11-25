@@ -1,29 +1,47 @@
 {
-  "keywords": ["titanec", "électricité", "domotique", "industriel", "dépannage", "bruxelles"],
-  "title": "Titanec | Accueil",
-  "description": "Titanec est une entreprise spécialisée dans l'électricité générale, la domotique et les installations industrielles.",
+  "keywords": ["titanec", "électricité", "infrastructure", "ferroviaire", "autoroutier", "poteaux électriques", "câblage", "bornes de recharge", "terrassement", "excavation", "dépannage", "bruxelles", "belgique"],
+  "title": "Titanec | Infrastructure Électrique & Travaux Publics",
+  "description": "Titanec, entreprise belge fondée en 2009, spécialisée dans les travaux d'infrastructure électrique et de génie civil pour les secteurs autoroutier et ferroviaire.",
   "manifest": {
     "projectShortName": "Titanec",
-    "themeColor": "#2421ed",
+    "themeColor": "#0a2540",
     "url": "https://www.titanec.be/",
-    "description": "Titanec est une entreprise spécialisée dans l'électricité générale, la domotique et les installations industrielles.",
+    "description": "Titanec, entreprise belge fondée en 2009, spécialisée dans les travaux d'infrastructure électrique et de génie civil pour les secteurs autoroutier et ferroviaire.",
     "display": "standalone",
     "orientation": "portrait",
-    "backgroundColor": "#2421ed"
+    "backgroundColor": "#0a2540"
   },
   "gtag": "G-BTJKF17TC7",
-  "pages": [],
-  "socials": [],
+  "pages": [
+    { "title": "link.home", "link": "/" },
+    { "title": "link.services", "link": "/#services" },
+    { "title": "link.about", "link": "/#about" },
+    { "title": "link.careers", "link": "/#careers" },
+    { "title": "link.contact", "link": "/#contact" }
+  ],
+  "socials": [
+    { "name": "linkedin", "icon": "linkedin", "url": "https://linkedin.com/company/titanec" },
+    { "name": "facebook", "icon": "facebook", "url": "https://facebook.com/titanec" }
+  ],
+  "clients": [
+    { "name": "Jacops", "logo": "/images/clients/jacops.png" },
+    { "name": "Infrabel", "logo": "/images/clients/infrabel.png" },
+    { "name": "Strukton", "logo": "/images/clients/strukton.png" },
+    { "name": "APK", "logo": "/images/clients/apk.png" },
+    { "name": "Equans", "logo": "/images/clients/equans.png" }
+  ],
+  "foundedYear": 2009,
   "sla": [],
   "address": {
-    "url": "https://g.co/kgs/68epzhh",
-    "address": "Avenue de la Basillique 377, B3, 1081 Koekelberg, Bruxelles, Belgique"
+    "url": "https://maps.google.com/?q=Avenue+Louise+209A+boite+7+1050+Ixelles",
+    "address": "Avenue Louise 209 A, boîte 7, 1050 Ixelles, Bruxelles, Belgique"
   },
   "companyName": "Titanec",
   "tel": "+32485245084",
   "email": "accueil@titanec.be",
   "web": "https://www.titanec.be",
   "tva": "BE0712733234",
+  "rdv": "mailto:accueil@titanec.be?subject=Demande%20de%20devis",
   "locales": ["fr", "nl"],
   "defaultLocale": "fr",
   "author": {

@@ -14,35 +14,36 @@ export default function NewsletterForm({ formSuccess, handleSubmit, formError })
       action={router.pathname}
       name='newsletter'
     >
-      <div className='flex flex-col gap-2 md:flex-row justify-between'>
+      <div className='flex flex-col gap-3'>
         <input type='hidden' name='form-name' value='newsletter' />
         <p className='hidden'>
           <label>
-            Don’t fill this out if you’re human: <input name='bot-field' />
+            Don&apos;t fill this out if you&apos;re human: <input name='bot-field' />
           </label>
         </p>
-        <div className='bg-white rounded-3xl p-2 flex flex-col md:flex-row gap-1'>
+        <div className='flex flex-col sm:flex-row gap-2'>
           <input
             type='email'
             name='email'
+            required
             placeholder={t('newsletter.email')}
-            className='rounded-3xl border-2 bg-white text-light-900 focus:border-white focus:ring-white border-white placeholder:text-gray'
+            className='flex-1 rounded-lg px-4 py-2.5 text-sm bg-white/10 border border-white/20 text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-white/30'
           />
           <button
             type='submit'
-            className='bg-secondary-500 hover:bg-primary-600 text-primary-900 hover:text-white text rounded-3xl flex flex-row gap-2 items-center px-4 py-2 hover:translate-x-1 transition-transform ease-in-out duration-300'
+            className='bg-white hover:bg-gray-100 text-secondary-600 font-semibold rounded-lg px-6 py-2.5 text-sm transition-colors duration-200'
           >
             {t('newsletter.submit')}
           </button>
         </div>
       </div>
       {formSuccess && (
-        <div className='mt-2 bg-white px-4 py-2 rounded-3xl text-green-500 transition-all'>
+        <div className='mt-3 bg-white/20 px-4 py-2 rounded-lg text-white text-sm text-center'>
           {formSuccess.message}
         </div>
       )}
       {formError && (
-        <div className='mt-2 bg-white px-4 py-2 rounded-3xl text-red-500 transition-all'>
+        <div className='mt-3 bg-red-500/20 px-4 py-2 rounded-lg text-white text-sm text-center'>
           {formError.message}
         </div>
       )}

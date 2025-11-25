@@ -1,50 +1,50 @@
 [
   {
-    "name": "services.domotique",
-    "id": "services.domotique",
-    "title": "services.domotique.title",
-    "description": "services.domotique.description"
+    "name": "services.electric.poles",
+    "id": "services.electric.poles",
+    "title": "services.electric.poles.title",
+    "description": "services.electric.poles.description",
+    "icon": "/icons/services/electric-pole.svg",
+    "category": "electric"
   },
   {
-    "name": "services.electic.residential",
-    "id": "services.electic.residential",
-    "title": "services.electic.residential.title",
-    "description": "services.electic.residential.description"
+    "name": "services.electric.cabling",
+    "id": "services.electric.cabling",
+    "title": "services.electric.cabling.title",
+    "description": "services.electric.cabling.description",
+    "icon": "/icons/services/cable.svg",
+    "category": "electric"
   },
   {
-    "name": "services.electic.industrial",
-    "id": "services.electic.industrial",
-    "title": "services.electic.industrial.title",
-    "description": "services.electic.industrial.description"
+    "name": "services.electric.charging",
+    "id": "services.electric.charging",
+    "title": "services.electric.charging.title",
+    "description": "services.electric.charging.description",
+    "icon": "/icons/services/charging.svg",
+    "category": "electric"
   },
   {
-    "name": "services.electic.compliance",
-    "id": "services.electic.compliance",
-    "title": "services.electic.compliance.title",
-    "description": "services.electic.compliance.description"
+    "name": "services.infra.earthwork",
+    "id": "services.infra.earthwork",
+    "title": "services.infra.earthwork.title",
+    "description": "services.infra.earthwork.description",
+    "icon": "/icons/services/earthwork.svg",
+    "category": "infra"
   },
   {
-    "name": "services.electic.cabling",
-    "id": "services.electic.cabling",
-    "title": "services.electic.cabling.title",
-    "description": "services.electic.cabling.description"
+    "name": "services.infra.trenching",
+    "id": "services.infra.trenching",
+    "title": "services.infra.trenching.title",
+    "description": "services.infra.trenching.description",
+    "icon": "/icons/services/trench.svg",
+    "category": "infra"
   },
   {
-    "name": "services.electic.led",
-    "id": "services.electic.led",
-    "title": "services.electic.led.title",
-    "description": "services.electic.led.description"
-  },
-  {
-    "name": "services.electic.troubleshooting",
-    "id": "services.electic.troubleshooting",
-    "title": "services.electic.troubleshooting.title",
-    "description": "services.electic.troubleshooting.description"
-  },
-  {
-    "name": "services.electic.maintenance",
-    "id": "services.electic.maintenance",
-    "title": "services.electic.maintenance.title",
-    "description": "services.electic.maintenance.description"
+    "name": "services.troubleshooting",
+    "id": "services.troubleshooting",
+    "title": "services.troubleshooting.title",
+    "description": "services.troubleshooting.description",
+    "icon": "/icons/services/emergency.svg",
+    "category": "support"
   }
 ]

@@ -3,32 +3,57 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 255, 255, 255;
+  --foreground-rgb: 17, 24, 39;
   --background-start-rgb: 255, 255, 255;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 255, 255, 255;
-    --background-end-rgb: 255, 255, 255;
-  }
+  --background-end-rgb: 249, 250, 251;
 }
 
 @layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply text-gray-900 antialiased;
+  }
+
   p,
   span {
-    @apply text-light-900;
+    @apply text-gray-700;
   }
+
   h1 {
-    @apply text-3xl font-bold;
+    @apply text-3xl md:text-4xl font-bold text-primary-500;
   }
+
   h2 {
-    @apply text-2xl;
+    @apply text-2xl md:text-3xl font-bold text-primary-500;
   }
+
   h3 {
-    @apply text-xl;
+    @apply text-xl md:text-2xl font-semibold text-primary-500;
+  }
+
+  a {
+    @apply transition-colors duration-200;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary-500 hover:bg-primary-600 text-white font-semibold px-6 py-3 rounded-full shadow-md hover:shadow-lg transition-all duration-300;
+  }
+
+  .btn-secondary {
+    @apply bg-secondary-500 hover:bg-secondary-600 text-white font-semibold px-6 py-3 rounded-full shadow-md hover:shadow-lg transition-all duration-300;
+  }
+
+  .btn-outline {
+    @apply border-2 border-primary-500 text-primary-500 hover:bg-primary-500 hover:text-white font-semibold px-6 py-3 rounded-full transition-all duration-300;
+  }
+
+  .card {
+    @apply bg-white rounded-2xl shadow-md hover:shadow-lg transition-shadow duration-300 p-6;
   }
 }
 
@@ -40,56 +65,59 @@
 }
 
 .opacity-transition {
-  -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 1s; /* Firefox < 16 */
-  -ms-animation: fadein 1s; /* Internet Explorer */
-  -o-animation: fadein 1s; /* Opera < 12.1 */
-  animation: fadein 1s;
+  -webkit-animation: fadein 0.5s ease-out;
+  -moz-animation: fadein 0.5s ease-out;
+  -ms-animation: fadein 0.5s ease-out;
+  -o-animation: fadein 0.5s ease-out;
+  animation: fadein 0.5s ease-out;
 }
 
 @keyframes fadein {
   from {
     opacity: 0;
+    transform: translateY(10px);
   }
   to {
     opacity: 1;
-  }
-}
-/* Firefox < 16 */
-@-moz-keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-/* Safari, Chrome and Opera > 12.1 */
-@-webkit-keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-/* Internet Explorer */
-@-ms-keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
+    transform: translateY(0);
   }
 }
 
 body {
   color: rgb(var(--foreground-rgb));
-  font-family: 'Onest', serif;
+  font-family: 'Onest', 'Inter', system-ui, -apple-system, sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb)))
-    rgb(var(--background-start-rgb));
+  background: linear-gradient(to bottom, rgb(var(--background-start-rgb)), rgb(var(--background-end-rgb)));
+  min-height: 100vh;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0a2540;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1a7a9e;
+}
+
+/* Selection color */
+::selection {
+  background: rgba(26, 122, 158, 0.3);
+  color: #0a2540;
+}
+
+/* Focus styles for accessibility */
+*:focus-visible {
+  outline: 2px solid #1a7a9e;
+  outline-offset: 2px;
 }

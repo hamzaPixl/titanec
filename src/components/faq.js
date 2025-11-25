@@ -5,39 +5,43 @@ import faqA from '../faq.json'
 export default function Faq() {
   const { t } = useTranslate()
   return (
-    <div className='text-light-900 w-full flex flex-col gap-10 justify-between items-left text-left'>
-      <div className='text-3xl xl:text-4xl font-bold text-primary-500'>{t('faq.title')}</div>
-      <div className='max-w-xl text-base'>{t('faq.description')}</div>
+    <div className='w-full flex flex-col gap-8'>
+      <div className='text-center mb-4'>
+        <h2 className='text-2xl md:text-3xl font-bold text-primary-500 mb-4'>{t('faq.title')}</h2>
+        <p className='text-gray-600 max-w-2xl mx-auto'>{t('faq.description')}</p>
+      </div>
 
-      {faqA.map((f, i) => (
-        <details
-          key={`faq-${i + 1}`}
-          className='text-left bg-light-200 w-full rounded-3xl border border-slate-200 bg-none p-7 transition-all duration-300 ease-in-out open:bg-light-900 open:text-white shadow-lg group'
-        >
-          <summary className='flex flex-row w-full justify-between items-center cursor-pointer list-none text-base font-normal'>
-            {f.question}
-            <div className='block cursor-pointer p-2 rounded-full bg-light-900 text-light-200 group-open:bg-light-200 group-open:text-light-900 transition-all duration-300 ease-in-out'>
-              <svg
-                xmlns='http://www.w3.org/2000/svg'
-                fill='none'
-                viewBox='0 0 24 24'
-                strokeWidth='{1.5}'
-                stroke='currentColor'
-                className='w-6 h-6'
-              >
-                <path strokeLinecap='round' strokeLinejoin='round' d='M12 4.5v15m7.5-7.5h-15' />
-              </svg>
-            </div>
-          </summary>
-          <div className='pt-10 text-base text-white flex flex-col gap-2'>
-            {f.answer.split('\n').map((p, i) => (
-              <div key={`faq-${i + 1}`} className='mb-4'>
-                {p}
+      <div className='space-y-4'>
+        {faqA.map((f, i) => (
+          <details
+            key={`faq-${i + 1}`}
+            className='group bg-gray-50 rounded-xl border border-gray-200 overflow-hidden transition-all duration-300 hover:shadow-sm'
+          >
+            <summary className='flex flex-row w-full justify-between items-center cursor-pointer p-5 text-base font-semibold text-primary-500 list-none'>
+              <span className='pr-4'>{f.question}</span>
+              <div className='flex-shrink-0 w-8 h-8 rounded-full bg-primary-500 text-white flex items-center justify-center group-open:bg-secondary-500 transition-all duration-300'>
+                <svg
+                  xmlns='http://www.w3.org/2000/svg'
+                  fill='none'
+                  viewBox='0 0 24 24'
+                  strokeWidth={2}
+                  stroke='currentColor'
+                  className='w-4 h-4 transition-transform duration-300 group-open:rotate-45'
+                >
+                  <path strokeLinecap='round' strokeLinejoin='round' d='M12 4.5v15m7.5-7.5h-15' />
+                </svg>
               </div>
-            ))}
-          </div>
-        </details>
-      ))}
+            </summary>
+            <div className='px-5 pb-5 text-gray-600 leading-relaxed'>
+              {f.answer.split('\n').map((p, idx) => (
+                <p key={`faq-answer-${idx}`} className='mb-2 last:mb-0'>
+                  {p}
+                </p>
+              ))}
+            </div>
+          </details>
+        ))}
+      </div>
     </div>
   )
 }
