@@ -22,4 +22,4 @@ Nous nous réservons le droit de modifier ces conditions à tout moment. Les mod
 
 ## 6. Contact
 
-Pour toute question concernant ces conditions, veuillez nous contacter à accueil@titanec.be.
+Pour toute question concernant ces conditions, veuillez nous contacter à info.titanec@gmail.com.

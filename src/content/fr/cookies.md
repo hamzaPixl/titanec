@@ -25,4 +25,4 @@ Nous pouvons mettre à jour cette politique de cookies de temps en temps. Les mo
 
 ## 6. Contact
 
-Pour toute question concernant cette politique de cookies, veuillez nous contacter à accueil@titanec.be.
+Pour toute question concernant cette politique de cookies, veuillez nous contacter à info.titanec@gmail.com.

@@ -38,10 +38,10 @@
   },
   "companyName": "Titanec",
   "tel": "+32485245084",
-  "email": "accueil@titanec.be",
+  "email": "info.titanec@gmail.com",
   "web": "https://www.titanec.be",
   "tva": "BE0712733234",
-  "rdv": "mailto:accueil@titanec.be?subject=Demande%20de%20devis",
+  "rdv": "mailto:info.titanec@gmail.com?subject=Demande%20de%20devis",
   "locales": ["fr", "nl"],
   "defaultLocale": "fr",
   "author": {
